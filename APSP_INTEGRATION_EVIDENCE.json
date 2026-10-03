@@ -1,0 +1,16 @@
+{
+  "adapter_mode": "NORMATIVE_ONLY_JUSTIFIED",
+  "adapter_sha": "916b5b2bb6871de3235eaaa66eec27d479ef6648",
+  "broker_repository": "thiagoba2004/governanca-geral-modelos-ia",
+  "classification_reason": "Only the canonical APSP protocol was identified; no state, checkpoint, application runtime, or persistence mechanism justifies executable APSP installation.",
+  "project_code": null,
+  "protocol_path": "APSP_AUTONOMOUS_PHASE_SUCCESSION_PROTOCOL.md",
+  "protocol_sha": "47fed56b77fdabd0aaefbeb47983f4cd8dd11dff",
+  "recovery_applicable": false,
+  "recovery_reason": "Only the canonical APSP protocol was identified; no state, checkpoint, application runtime, or persistence mechanism justifies executable APSP installation.",
+  "recovery_status": "NOT_APPLICABLE",
+  "repository": "thiagoba2004/conselhos-profissionais",
+  "schema_version": "1.1",
+  "secret_policy": "NO_LOCAL_SECRETS",
+  "status": "VERIFIED"
+}
