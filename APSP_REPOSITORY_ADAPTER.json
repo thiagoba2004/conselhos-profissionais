@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.2",
+  "repository": "thiagoba2004/conselhos-profissionais",
+  "project_code": null,
+  "adapter_mode": "NORMATIVE_ONLY_JUSTIFIED",
+  "classification_reason": "Only the canonical APSP protocol was identified; no state, checkpoint, application runtime, or persistence mechanism justifies executable APSP installation.",
+  "protocol_path": "APSP_AUTONOMOUS_PHASE_SUCCESSION_PROTOCOL.md",
+  "project_state_path": null,
+  "strategy_log_path": null,
+  "roadmap_path": null,
+  "runtime_engine_path": null,
+  "runtime_contract_path": null,
+  "runtime_state_path": null,
+  "recovery_probe_path": null,
+  "recovery_applicable": false,
+  "recovery_reason": "Only the canonical APSP protocol was identified; no state, checkpoint, application runtime, or persistence mechanism justifies executable APSP installation.",
+  "application_entrypoint_path": null,
+  "requirements_path": null,
+  "validation_artifact_paths": [],
+  "secret_policy": "NO_LOCAL_SECRETS",
+  "broker_repository": "thiagoba2004/governanca-geral-modelos-ia",
+  "allowed_initial_operations": [
+    "READ",
+    "VERIFY",
+    "PERSIST_EVIDENCE"
+  ]
+}
