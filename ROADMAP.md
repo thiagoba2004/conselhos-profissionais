@@ -30,3 +30,15 @@ persistida. Até essa reconciliação, o estado substantivo permanece
 **Primeiro candidato de entrega posterior:** Inventariar os conselhos profissionais e fontes institucionais oficiais, estabelecendo critérios sem presumir regimes uniformes. Não iniciar automaticamente; recuperar o mandato local, definir escopo, fonte e critério de verificação e selecionar a estratégia pertinente.
 
 **Restrições:** GitHub público, fonte oficial verificada, representação não oficial, vedação de S2+, dados privados, despesas e implantação web presumida. A verificação de site/Pages permanece `NOT_VERIFIED`.
+
+## EA-000007-000002 — Site próprio e acervo inicial de fontes — 10/10/2026
+
+**Autoridade:** `REQ-000007-20261010-002` · [Plano de Fases](estrategias/EA-000007-000002-site-publico-fontes.md).
+
+- **F01/05:** delimitação de fontes, repositório público e arquitetura Pages — realizada.
+- **F02/05:** conteúdo inicial e arquitetura `SITE_ARCHITECTURE.md` — preparada.
+- **F03/05:** arquivos `docs/index.md`, `docs/eixos.md`, `docs/fontes.md`, `docs/sobre.md` — salvos em `main`, pendente de auditoria final.
+- **F04/05:** habilitar GitHub Pages de `main/docs` — **aguarda configuração pelo proprietário na interface administrativa**.
+- **F05/05:** verificar URL pública, conteúdo servido, links e exclusão de dados sensíveis — **NÃO INICIADA**.
+
+**Proveniência:** 4 referências iniciais oficiais identificadas, sem reivindicação de exaustividade ou revisão completa de vigência. **Sem construção de interface customizada nem gasto novo.** O site não deve ser apresentado como publicado antes de evidência de Pages + HTTP.
