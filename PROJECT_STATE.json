@@ -6,11 +6,11 @@
   "project_alias": null,
   "project_id_legacy": "conselhos-profissionais",
   "repository": "thiagoba2004/conselhos-profissionais",
-  "status": "DOCUMENTARY_PUBLIC_CONSTITUTION_IN_PROGRESS",
-  "current_strategy_code": "EA-000007-000001",
-  "current_strategy_name": "Constituição pública documental do Projeto Conselhos Profissionais",
-  "current_phase_code": "F-000007-000001-004",
-  "last_completed_milestone": "Minimum governance scaffold created by EA-000000-000019",
+  "status": "PUBLIC_DOCUMENTARY_CONSTITUTION_VERIFIED",
+  "current_strategy_code": null,
+  "current_strategy_name": null,
+  "current_phase_code": null,
+  "last_completed_milestone": "EA-000007-000001 — missão pública, documentos iniciais e perfil do Gerador verificados no GitHub",
   "canonical_files": [
     "AGENTS.md",
     "REQUEST_LOG.jsonl",
@@ -28,10 +28,10 @@
     "Pesquisa substantiva e fontes verificadas ainda pendentes.",
     "GitHub Pages e site público não ativados nem certificados."
   ],
-  "next_logical_step": "Realizar readback final da constituição pública, encerrar EA local e submeter futura pesquisa substantiva à governança local.",
+  "next_logical_step": "Definir e autorizar a primeira pesquisa substantiva própria: Inventariar fontes oficiais dos conselhos profissionais, com delimitação e evidências verificadas. Fontes e resultados ainda não verificados.",
   "unknown_fields_are_not_inferred": true,
   "updated_at": "2026-10-10",
-  "current_phase_status": "PENDING_FINAL_READBACK",
+  "current_phase_status": null,
   "publication_visibility": "PUBLIC_GITHUB_REPOSITORY",
   "publication_site_status": "NOT_VERIFIED_NOT_ACTIVATED",
   "generator_route": "B",
@@ -40,5 +40,22 @@
   "mission_ref": "MISSAO_E_ESCOPO.md",
   "mission_authority_ref": "REQ-000007-20261010-001",
   "public_non_official": true,
-  "new_spending_authorized": false
+  "new_spending_authorized": false,
+  "last_concluded_strategy_code": "EA-000007-000001",
+  "last_concluded_strategy_name": "Constituição pública documental do Projeto Conselhos Profissionais",
+  "last_completed_phase": "F-000007-000001-004",
+  "strategy_status": "SEM_ESTRATEGIA_ATIVA",
+  "constitution_verification": {
+    "date": "2026-10-10",
+    "mode": "GITHUB_CONNECTOR_READBACK",
+    "scope": "PUBLIC_DOCUMENTARY_ONLY",
+    "gate": "PUBLIC_DOCUMENTARY_CONSTITUTION_VERIFIED",
+    "observed_files": 10,
+    "github_repository_visibility": "PUBLIC",
+    "research_corpus_verified": false,
+    "github_pages_deployment_verified": false,
+    "external_site_activation_performed": false,
+    "source_profile": "thiagoba2004/gerador-de-agents/profiles/conselhos-profissionais.json",
+    "new_spending": false
+  }
 }
