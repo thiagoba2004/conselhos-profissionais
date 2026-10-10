@@ -6,22 +6,39 @@
   "project_alias": null,
   "project_id_legacy": "conselhos-profissionais",
   "repository": "thiagoba2004/conselhos-profissionais",
-  "status": "GOVERNANCE_BASELINE_ESTABLISHED",
-  "current_strategy_code": null,
-  "current_strategy_name": null,
-  "current_phase_code": null,
+  "status": "DOCUMENTARY_PUBLIC_CONSTITUTION_IN_PROGRESS",
+  "current_strategy_code": "EA-000007-000001",
+  "current_strategy_name": "Constituição pública documental do Projeto Conselhos Profissionais",
+  "current_phase_code": "F-000007-000001-004",
   "last_completed_milestone": "Minimum governance scaffold created by EA-000000-000019",
   "canonical_files": [
     "AGENTS.md",
     "REQUEST_LOG.jsonl",
     "STRATEGY_LOG.jsonl",
     "PROJECT_STATE.json",
-    "ROADMAP.md"
+    "ROADMAP.md",
+    "README.md",
+    "MISSAO_E_ESCOPO.md",
+    "POLITICA_FONTES_E_PUBLICACAO.md",
+    "INFORMATION_HANDLING_PROFILE.json",
+    "estrategias/EA-000007-000001-constituicao-publica.md"
   ],
   "pending_items": [
-    "Reconcile substantive local state from repository evidence; do not infer history."
+    "Inventariar os conselhos profissionais e fontes institucionais oficiais, estabelecendo critérios sem presumir regimes uniformes.",
+    "Pesquisa substantiva e fontes verificadas ainda pendentes.",
+    "GitHub Pages e site público não ativados nem certificados."
   ],
-  "next_logical_step": "Identify the next local request and register a canonical local strategy only when substantive work is authorized.",
+  "next_logical_step": "Realizar readback final da constituição pública, encerrar EA local e submeter futura pesquisa substantiva à governança local.",
   "unknown_fields_are_not_inferred": true,
-  "updated_at": "2026-10-04T12:33:57.831509Z"
+  "updated_at": "2026-10-10",
+  "current_phase_status": "PENDING_FINAL_READBACK",
+  "publication_visibility": "PUBLIC_GITHUB_REPOSITORY",
+  "publication_site_status": "NOT_VERIFIED_NOT_ACTIVATED",
+  "generator_route": "B",
+  "generator_strategy_code": "EA-000002-000024",
+  "generator_profile_ref": "thiagoba2004/gerador-de-agents/profiles/conselhos-profissionais.json",
+  "mission_ref": "MISSAO_E_ESCOPO.md",
+  "mission_authority_ref": "REQ-000007-20261010-001",
+  "public_non_official": true,
+  "new_spending_authorized": false
 }
