@@ -6,11 +6,11 @@
   "project_alias": null,
   "project_id_legacy": "conselhos-profissionais",
   "repository": "thiagoba2004/conselhos-profissionais",
-  "status": "PUBLIC_DOCUMENTARY_CONSTITUTION_VERIFIED",
-  "current_strategy_code": null,
-  "current_strategy_name": null,
-  "current_phase_code": null,
-  "last_completed_milestone": "EA-000007-000001 — missão pública, documentos iniciais e perfil do Gerador verificados no GitHub",
+  "status": "PUBLIC_SITE_SOURCE_IN_PREPARATION",
+  "current_strategy_code": "EA-000007-000002",
+  "current_strategy_name": "Site público próprio e fontes oficiais — Conselhos Profissionais",
+  "current_phase_code": "F-000007-000002-003",
+  "last_completed_milestone": "EA-000007-000002 — quatro páginas Markdown preparadas no GitHub",
   "canonical_files": [
     "AGENTS.md",
     "REQUEST_LOG.jsonl",
@@ -21,17 +21,24 @@
     "MISSAO_E_ESCOPO.md",
     "POLITICA_FONTES_E_PUBLICACAO.md",
     "INFORMATION_HANDLING_PROFILE.json",
-    "estrategias/EA-000007-000001-constituicao-publica.md"
+    "estrategias/EA-000007-000001-constituicao-publica.md",
+    "SITE_ARCHITECTURE.md",
+    "SITE_STYLE_GUIDE.md",
+    "estrategias/EA-000007-000002-site-publico-fontes.md",
+    "docs/index.md",
+    "docs/eixos.md",
+    "docs/fontes.md",
+    "docs/sobre.md"
   ],
   "pending_items": [
     "Inventariar os conselhos profissionais e fontes institucionais oficiais, estabelecendo critérios sem presumir regimes uniformes.",
     "Pesquisa substantiva e fontes verificadas ainda pendentes.",
     "GitHub Pages e site público não ativados nem certificados."
   ],
-  "next_logical_step": "Definir e autorizar a primeira pesquisa substantiva própria: Inventariar fontes oficiais dos conselhos profissionais, com delimitação e evidências verificadas. Fontes e resultados ainda não verificados.",
+  "next_logical_step": "Auditar a fonte do site na pasta docs; configurar GitHub Pages via Settings → Pages: main /docs; somente após observar deploy e HTTP encerrar a Estratégia.",
   "unknown_fields_are_not_inferred": true,
   "updated_at": "2026-10-10",
-  "current_phase_status": null,
+  "current_phase_status": "SOURCE_STAGED_AWAITING_READBACK",
   "publication_visibility": "PUBLIC_GITHUB_REPOSITORY",
   "publication_site_status": "NOT_VERIFIED_NOT_ACTIVATED",
   "generator_route": "B",
@@ -44,7 +51,7 @@
   "last_concluded_strategy_code": "EA-000007-000001",
   "last_concluded_strategy_name": "Constituição pública documental do Projeto Conselhos Profissionais",
   "last_completed_phase": "F-000007-000001-004",
-  "strategy_status": "SEM_ESTRATEGIA_ATIVA",
+  "strategy_status": "EM_EXECUCAO",
   "constitution_verification": {
     "date": "2026-10-10",
     "mode": "GITHUB_CONNECTOR_READBACK",
@@ -57,5 +64,26 @@
     "external_site_activation_performed": false,
     "source_profile": "thiagoba2004/gerador-de-agents/profiles/conselhos-profissionais.json",
     "new_spending": false
+  },
+  "public_site_project": {
+    "authority": "REQ-000007-20261010-002",
+    "strategy_code": "EA-000007-000002",
+    "source_branch": "main",
+    "source_directory": "/docs",
+    "source_pages": [
+      "index.md",
+      "eixos.md",
+      "fontes.md",
+      "sobre.md"
+    ],
+    "repository_visibility": "PUBLIC",
+    "official_sources_initial": 4,
+    "site_code_state": "STAGED_IN_GITHUB",
+    "pages_configuration": "NOT_YET_VERIFIED",
+    "github_pages_url": null,
+    "public_http_verified": false,
+    "substantive_coverage": "INITIAL_OFFICIAL_SOURCE_INDEX_NOT_EXHAUSTIVE",
+    "web_theme_customized": false,
+    "no_new_spending": true
   }
 }
