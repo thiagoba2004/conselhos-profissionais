@@ -78,3 +78,13 @@ Preferir mecanismo determinístico seguro quando suficiente; usar o Chat em aná
 **Publicação e segurança:** GitHub é `P2_GIT_PUBLICO_REPOSITORIO`, conforme `INFORMATION_HANDLING_PROFILE.json`. É proibido registrar nele S2+, segredos, dados pessoais não públicos, documentos sigilosos de processos e identidade visual oficial como se o Projeto fosse órgão representado. GitHub público é distinto de GitHub Pages/site em funcionamento.
 
 **Continuidade:** recuperar `PROJECT_STATE.json`, `ROADMAP.md`, o plano `estrategias/EA-000007-000001-constituicao-publica.md` e logs. A presente constituição não certifica corpus de pesquisa nem ativa operações produtivas.
+
+## Site público próprio e acervo inicial — 10/10/2026
+
+**Autorização humana:** `REQ-000007-20261010-002`, estratégia local `EA-000007-000002`. O módulo `web-site` é **ATIVADO** por determinação expressa de criação de site público próprio; `contact-protocol`, automações, backend e software customizado não estão autorizados por inferência.
+
+**Fonte canônica do site:** `main/docs` com quatro páginas Markdown; arquitetura em `SITE_ARCHITECTURE.md`, guia de apresentação em `SITE_STYLE_GUIDE.md` e fontes indexadas em `docs/fontes.md`. O GitHub deve publicar por Pages somente `/docs`, sem copiar os arquivos de governança para a árvore pública do site.
+
+**Distinção de estados:** `SITE_SOURCE_STAGED_IN_GITHUB` significa código-fonte/conteúdo versionados, **não** `PUBLIC_SITE_VERIFIED`. Este último depende de configuração efetiva do Pages, observação HTTP, navegação e registro de evidência. O conector documental desta sessão não altera Settings → Pages.
+
+**Execução por capacidade:** Chat pode registrar e publicar conteúdo Markdown no Git; construção técnica de site customizado/CSS/JavaScript ou build multiarquivo pertence ao Codex, nos limites do catálogo global de ações. Proibidos segredos, S2+, dados pessoais privados e aparência de entidade oficial. A política `POLITICA_FONTES_E_PUBLICACAO.md` continua vinculante.
