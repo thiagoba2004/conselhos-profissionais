@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000007",
+  "project_name": "Conselhos Profissionais",
+  "updated_at": "2026-10-10",
+  "source_approval_ref": "REQ-000007-20261010-001",
+  "repository": {
+    "visibility": "PUBLIC",
+    "verification": "GITHUB_METADATA_CHECKED_2026-10-10",
+    "surface": "P2_GIT_PUBLICO_REPOSITORIO",
+    "confidential_content_allowed": false,
+    "s2_or_higher_allowed": false,
+    "raw_s3_allowed": false,
+    "s4_allowed": false
+  },
+  "pages": {
+    "enabled": false,
+    "verification": "NOT_ENABLED_OR_DEPLOYMENT_VERIFIED",
+    "surface": null,
+    "explicit_publication_gate_required": true
+  },
+  "default_rules": {
+    "public_content": "S0_PUBLICO",
+    "governance_files": "S1_INTERNO_NAO_SENSIVEL only after repository-publication review",
+    "restricted_sources": "Separate authorized private storage outside this public repo",
+    "personal_data": "Do not expose nonpublic identifiable material or legal case files",
+    "secrets": "Never commit API keys, credentials, service secrets or personal passwords"
+  },
+  "historical_public_repo_audit": {
+    "status": "NOT_PERFORMED_IN_THIS_CONSTITUTION",
+    "note": "No claim of complete Git historical PII/secrets audit"
+  },
+  "contact_and_website": {
+    "contact_protocol": "NOT_CONFIGURED",
+    "github_pages": "NOT_VERIFIED_NOT_ACTIVATED"
+  }
+}
