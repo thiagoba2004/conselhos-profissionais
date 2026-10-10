@@ -14,8 +14,8 @@
     "s4_allowed": false
   },
   "pages": {
-    "enabled": false,
-    "verification": "NOT_ENABLED_OR_DEPLOYMENT_VERIFIED",
+    "enabled": null,
+    "verification": "NOT_VERIFIED_NO_PAGES_ACTIVATION_IN_THIS_STRATEGY",
     "surface": null,
     "explicit_publication_gate_required": true
   },
@@ -32,6 +32,6 @@
   },
   "contact_and_website": {
     "contact_protocol": "NOT_CONFIGURED",
-    "github_pages": "NOT_VERIFIED_NOT_ACTIVATED"
+    "github_pages": "NOT_VERIFIED_NO_ACTIVATION_IN_THIS_STRATEGY"
   }
 }
