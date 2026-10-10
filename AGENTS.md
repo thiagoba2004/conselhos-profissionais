@@ -64,3 +64,17 @@ local comprovada, declarar explicitamente `UNKNOWN_NOT_INFERRED`.
 **Decisão humana transversal:** manter banco local `governanca/EXECUTOR_ACTION_CATALOG.json`, herdando as ações globais do catálogo `GOV-EXEC-ACTIONS-000001` e a política `GOV-POL-ECO-000001`. Para trabalho persistente, decompor a tarefa em ações identificáveis; antes de cada ação material, conferir `action_id`, `required_executor`, autorização, capacidades, limites, segurança e gates locais. É proibido encaminhar uma ação não classificada ou a executor divergente. A exceção exige decisão humana **expressa e específica**, registrada no catálogo global de overrides, com evidência verificável; aprovação desta política não é autorização genérica de exceção.
 
 Preferir mecanismo determinístico seguro quando suficiente; usar o Chat em análise/documentação acessível e reservar Work/Codex para capacidades técnicas necessárias. A catalogação não substitui metodologia, checkpoints, políticas de sigilo ou autorizações existentes. O verificador `runtime/executor_action_gate.py` no repositório da Governança só bloqueia **despachos que efetivamente o invocarem**: não alegar interceptação automática das interfaces nativas Chat, Work ou Codex, nem mudança de executor sem comprovação.
+
+## Missão e módulos de domínio — 10/10/2026
+
+**Mandato:** `REQ-000007-20261010-001`; Gerador de Agents `EA-000002-000024`; estratégia local `EA-000007-000001`. Preservado o baseline EA-000000-000019 e o kernel atual `1.11`. Não retroagir missão ou estado a datas anteriores à aprovação.
+
+**Missão vigente:** consultar [MISSAO_E_ESCOPO.md](MISSAO_E_ESCOPO.md). O Projeto é independente, **não oficial**, publicamente acessível pelo GitHub. Não representar nem simular representação institucional das entidades pesquisadas.
+
+**Perfil e seleção de módulos:** `thiagoba2004/gerador-de-agents/profiles/conselhos-profissionais.json`. Ativados por evidência: `research`, `legal`, `publication` documental, `information-classification` e `execution-environments`. Demais módulos permanecem pendentes ou não aplicáveis conforme decisão no perfil; **nenhum site ou contato foi aprovado por inferência**.
+
+**Pesquisa:** aplicar [POLITICA_FONTES_E_PUBLICACAO.md](POLITICA_FONTES_E_PUBLICACAO.md), com primazia de fontes institucionais datadas, confronto de versões/vigência, distinção entre fato e tese, e reprovação de conclusões não verificadas. A divulgação pública de parecer de conteúdo jurídico requer validação proporcional e não substitui aconselhamento individual.
+
+**Publicação e segurança:** GitHub é `P2_GIT_PUBLICO_REPOSITORIO`, conforme `INFORMATION_HANDLING_PROFILE.json`. É proibido registrar nele S2+, segredos, dados pessoais não públicos, documentos sigilosos de processos e identidade visual oficial como se o Projeto fosse órgão representado. GitHub público é distinto de GitHub Pages/site em funcionamento.
+
+**Continuidade:** recuperar `PROJECT_STATE.json`, `ROADMAP.md`, o plano `estrategias/EA-000007-000001-constituicao-publica.md` e logs. A presente constituição não certifica corpus de pesquisa nem ativa operações produtivas.
