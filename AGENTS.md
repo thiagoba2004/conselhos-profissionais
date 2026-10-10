@@ -88,3 +88,15 @@ Preferir mecanismo determinístico seguro quando suficiente; usar o Chat em aná
 **Distinção de estados:** `SITE_SOURCE_STAGED_IN_GITHUB` significa código-fonte/conteúdo versionados, **não** `PUBLIC_SITE_VERIFIED`. Este último depende de configuração efetiva do Pages, observação HTTP, navegação e registro de evidência. O conector documental desta sessão não altera Settings → Pages.
 
 **Execução por capacidade:** Chat pode registrar e publicar conteúdo Markdown no Git; construção técnica de site customizado/CSS/JavaScript ou build multiarquivo pertence ao Codex, nos limites do catálogo global de ações. Proibidos segredos, S2+, dados pessoais privados e aparência de entidade oficial. A política `POLITICA_FONTES_E_PUBLICACAO.md` continua vinculante.
+
+## Adaptador ChatGPT — persistência independente da plataforma
+
+**Origem da correção:** autorização humana de portabilidade `REQ-20261010-006` (Gerador de Agents), vinculada à Governança Geral `REQ-GLOBAL-20261010-017`.
+
+O arquivo local [`adaptadores/chatgpt/INSTRUCOES.md`](adaptadores/chatgpt/INSTRUCOES.md) preserva, **dentro deste repositório GitHub**, a versão integral das Instruções destinadas ao campo **Instruções** do Projeto ChatGPT associado a `PRJ-000007`. Ele foi inicialmente gerado pelo `PRJ-000002 — Gerador de Agents`, sob `handoffs/chatgpt/PRJ-000007-INSTRUCOES.md`.
+
+**Separação de responsabilidades:** este `AGENTS.md`, as políticas locais, os logs e o `PROJECT_STATE.json` continuam definindo regras e estado canônicos independentes do fornecedor. `adaptadores/chatgpt/INSTRUCOES.md` é um **adaptador específico da interface ChatGPT**, utilizável para reconstruir a configuração caso se troque de conversa, plataforma ou dispositivo; não substitui o kernel universal nem concede poderes extras à IA.
+
+**Atualização e prova:** ao revisar o adaptador, versionar a mudança em GitHub, confrontar `AGENTS.md` e `PROJECT_STATE.json`, e depois atualizar/conferir **manualmente** as Instruções efetivas na interface ChatGPT. O conteúdo no Git **não se sincroniza automaticamente** com a interface. Sem confirmação da configuração real, não declarar o vínculo de memória C2/C3 efetivado nem o Gate de handoff **A6/B8** aceito. Se este adaptador divergir do estado do Projeto, identificar a divergência e reconciliar de forma autorizada, sem apagar histórico.
+
+**Publicação e segurança:** este repositório é público. Não inserir informações S2+, credenciais ou dados privados no adaptador ou em qualquer arquivo versionado. As restrições de execução por `action_id`, autorização, proveniência e classificação permanecem vinculantes.
