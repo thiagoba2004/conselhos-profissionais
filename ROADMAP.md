@@ -47,7 +47,7 @@ persistida. Até essa reconciliação, o estado substantivo permanece
 
 **Programa:** `EA-000000-000034`, F005; mandato `REQ-GLOBAL-20261011-001`. **Admissão:** `REQ-000007-20261012-005`; [Plano local](estrategias/EA-000007-000003-sciv-sob-demanda.md) e [matriz de ações](estrategias/EA-000007-000003-actions.json); evidência de coexistência/WIP em `thiagoba2004/governanca-geral-modelos-ia/auditorias/EA-000000-000034-F005-prj000007-coexistencia-wip-2026-10-12.md`.
 
-- **F001/06 — Admissão documental:** `CREATED` local, Plano/matriz/logs registrados; gate `SCIV_ADMISSAO_REGISTRADA` depende do readback e do registro dual global.
+- **F001/06 — Admissão documental:** **VERIFIED_DOCUMENTARY_AND_DUAL_REGISTRY_SCOPE**; `CREATED` local, Plano/matriz/logs e catálogo global registrados, com readback. Gate `SCIV_ADMISSAO_REGISTRADA` satisfeito somente no escopo documental.
 - **F002/06 — Caixas/SCIV_STATE desativado:** reservado ao CODEX Local, não iniciado.
 - **F003/06 — Adaptador SCIV preservador:** reservado ao CODEX Local, não iniciado.
 - **F004/06 — Testes offline/readback:** reservado ao CODEX Local, não iniciado.
@@ -55,3 +55,5 @@ persistida. Até essa reconciliação, o estado substantivo permanece
 - **F006/06 — Comportamento real e arquivo:** não iniciado.
 
 **WIP:** o Site `EA-000007-000002` continua a estratégia principal em F004 `BLOCKED_ADMIN_CONFIGURATION_REQUIRED`, com `main/docs` intacto e sem alegar Pages publicado. O SCIV é capacidade documental separada; serializar operações em arquivos compartilhados, sem concorrência de escritores nem promoção do Gate Pages. `ON_DEMAND`, `enabled=false`, B8 não aceito, C3/B1 não comprovados; nenhum site, serviço, polling, webhook ou gasto novo foi autorizado pela admissão.
+
+**Handoff de engenharia pronto, ainda não executado:** [F002–F004 — CODEX Local PRJ-000007](handoffs/codex/EA-000007-000003-SCIV-F002-F004.md), condicionado a checkout/permite efetivo, segurança e autorização material de efeitos. Global `EA-000000-000034/F005/ACT-008` permanece PLANNED; nenhum SCIV foi ativado.
