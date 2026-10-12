@@ -41,7 +41,17 @@
       "on_block": "Registrar bloqueio, owner e evidência; continuar somente ações independentes autorizadas",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "VERIFIED",
+      "verified_scope": "ADMISSION_DOCUMENTARY_AND_DUAL_GITHUB_READBACK_ONLY",
+      "evidence_refs": [
+        "auditorias/EA-000000-000034-F005-prj000007-coexistencia-wip-2026-10-12.md",
+        "estrategias/EA-000007-000003-sciv-sob-demanda.md",
+        "PROJECT_STATE.json",
+        "STRATEGY_LOG.jsonl",
+        "thiagoba2004/governanca-geral-modelos-ia/PORTFOLIO_STRATEGY_REGISTRY.jsonl"
+      ],
+      "global_registry_commit": "665e8f12423b67bb63fab7ebbffb13cef58bc777",
+      "completed_at_date": "2026-10-12"
     },
     {
       "action_key": "ACT-000007-000003-002",
