@@ -95,12 +95,12 @@
     "action_plan_ref": "estrategias/EA-000007-000003-actions.json",
     "source_request_id": "REQ-000007-20261012-005",
     "authorization_ref": "REQ-GLOBAL-20261011-001",
-    "status": "F001_LOCAL_CREATED_DUAL_REGISTRY_PENDING",
-    "current_phase": "F-000007-000003-001",
-    "last_completed_phase": null,
-    "last_completed_gate": null,
-    "next_executor": "CHAT_G0",
-    "next_action": "DUAL_STRATEGY_REGISTRY_GITHUB_READBACK_THEN_F002_CODEX",
+    "status": "F001_DOCUMENTARY_VERIFIED_DUAL_F002_CODEX_NEXT",
+    "current_phase": "F-000007-000003-002",
+    "last_completed_phase": "F-000007-000003-001",
+    "last_completed_gate": "SCIV_ADMISSAO_REGISTRADA",
+    "next_executor": "CODEX_LOCAL_PRJ000007",
+    "next_action": "ACT-000007-000003-002",
     "mode": "ON_DEMAND",
     "enabled": false,
     "opt_in_authorized": true,
@@ -115,6 +115,8 @@
     "site_ea_preserved": "EA-000007-000002",
     "site_pages_gate": "BLOCKED_ADMIN_CONFIGURATION_REQUIRED",
     "wip_preflight_ref": "thiagoba2004/governanca-geral-modelos-ia/auditorias/EA-000000-000034-F005-prj000007-coexistencia-wip-2026-10-12.md",
-    "site_publication_unchanged": true
+    "site_publication_unchanged": true,
+    "dual_registry_verified": true,
+    "global_registry_commit": "665e8f12423b67bb63fab7ebbffb13cef58bc777"
   }
 }
