@@ -1,0 +1,76 @@
+{
+  "base_commit": "8644e96215c4f812b53b5b57dac06248d21ecef2",
+  "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+  "worktree_line_endings": "Original CRLF/mixed preserved outside managed block; Git clean filter normalizes text to LF. Separate worktree and Git byte evidence.",
+  "provision_apply_writes": 6,
+  "provision_retry_writes": 0,
+  "outside_adapter_bytes_preserved": true,
+  "docs_and_site_diff_empty": true,
+  "limitations": [
+    "Physical symlink creation denied 1314",
+    "No independent verifier or universal PEP",
+    "No public push/native installation/live SCIV"
+  ],
+  "sources": [
+    {
+      "source": "generator",
+      "commit": "260365c810449c91b1759ee6cf0506b09e571a1a",
+      "path": "tools/sciv_bootstrap.py",
+      "git_bytes_sha256": "2e0c4c940496376b3f1ad0208c4fcc6a548811ed65bc33dc2e9fc1ef6a231336"
+    },
+    {
+      "source": "generator",
+      "commit": "260365c810449c91b1759ee6cf0506b09e571a1a",
+      "path": "tools/project_creation_gate.py",
+      "git_bytes_sha256": "62043b5955fde4f785d9e1c2141ec6f4d61dd3eb0bfd4f5ab8698c8e541e3488"
+    },
+    {
+      "source": "generator",
+      "commit": "260365c810449c91b1759ee6cf0506b09e571a1a",
+      "path": "tools/legacy_bootstrap_evidence.py",
+      "git_bytes_sha256": "f1f9b073b80d2a2bc2d78a50149473b522e9ded710f8838f57dbd56c1abbc351"
+    },
+    {
+      "source": "generator",
+      "commit": "260365c810449c91b1759ee6cf0506b09e571a1a",
+      "path": "tools/validate_execution_action_plan.py",
+      "git_bytes_sha256": "02d0700e56541316a297fc34a23e13ae3d273e5aa548a3c1111e2dc4d70ed42c"
+    },
+    {
+      "source": "generator",
+      "commit": "260365c810449c91b1759ee6cf0506b09e571a1a",
+      "path": "templates/SCIV_BOOTSTRAP.example.md",
+      "git_bytes_sha256": "09be930715331a9a8ba38cfdb59d76e6cd62d5947806315c233c6334b2cb06af"
+    },
+    {
+      "source": "governance",
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/sciv_mailbox.py",
+      "git_bytes_sha256": "25119cc12a28f9abfbf486e530b9377ef9d27313b01aeefa58125173604115c2"
+    },
+    {
+      "source": "governance",
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/sciv_essential.py",
+      "git_bytes_sha256": "56aeabb4414ce5387512ef19ed85f71015ef1c3775af589e4eb390c8901d95b7"
+    },
+    {
+      "source": "governance",
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/sciv_archive.py",
+      "git_bytes_sha256": "6c93e41038faa45739a3bb4c2cf01de0ead959a288dbca17038f61e8d471ca65"
+    },
+    {
+      "source": "governance",
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/executor_action_gate.py",
+      "git_bytes_sha256": "f722f6c425ec97ab1dce0e9104fdef94b62cba91bd96a0d577ce33394ed6d90a"
+    },
+    {
+      "source": "governance",
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "policies/EXECUTOR_ACTION_CATALOG.json",
+      "git_bytes_sha256": "00ed46fab1f71b5675f5bace941c4d9cec4a926ebabe80b88ecc2868143c160f"
+    }
+  ]
+}

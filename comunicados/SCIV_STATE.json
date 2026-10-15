@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "project_code": "PRJ-000007",
+  "repository": "thiagoba2004/conselhos-profissionais",
+  "strategy_code": "EA-000007-000003",
+  "mode": "ON_DEMAND",
+  "enabled": false,
+  "operational_ref": "main",
+  "inbox": "comunicados/governanca-geral/mensagens",
+  "outbox": "comunicados/ia-especializada/mensagens",
+  "native_instructions_installed": false,
+  "B8_accepted": false,
+  "real_sciv_behavior_verified": false,
+  "authorization_ref": "REQ-000007-20261015-006",
+  "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+}

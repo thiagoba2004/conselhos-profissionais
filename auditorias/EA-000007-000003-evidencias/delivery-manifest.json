@@ -1,0 +1,241 @@
+{
+  "request_ref": "REQ-000007-20261015-006",
+  "base_commit": "8644e96215c4f812b53b5b57dac06248d21ecef2",
+  "scope": "Local delivery; public push requires specific human authorization; manifest excludes itself to avoid self-reference",
+  "actions": [
+    "ACT-000007-000003-002",
+    "ACT-000007-000003-003",
+    "ACT-000007-000003-004"
+  ],
+  "files": [
+    {
+      "path": "PROJECT_STATE.json",
+      "effect": "UPDATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": "e8e0405790f63a4aa66d3dc384dc9971d88d1a18",
+      "expected_new_git_blob": "05e3278a2371b92878a165fb1bf92fdb1283ff61",
+      "new_worktree_sha256": "50a21edc053bb4e206414aa1079eaff2ca4a9197349cdd78071f10526f0a3715",
+      "new_bytes": 6290,
+      "apply_tracking_old_sha256": "deb31db50db0e3a1fe59fd573ddb2b1e3ac51856862c70239192e517120e5a8c"
+    },
+    {
+      "path": "REQUEST_LOG.jsonl",
+      "effect": "UPDATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": "95d2c2a637e7a6d15d1a554c66d5cd149a932a0f",
+      "expected_new_git_blob": "9a03b1d21a61936387f9b6d0d8f26fbb5acf7b2f",
+      "new_worktree_sha256": "b0a9a34c933499da1c90b05efb9977ae274182fb83cc39c7496ed14df757523d",
+      "new_bytes": 5335,
+      "apply_tracking_old_sha256": "b0a9a34c933499da1c90b05efb9977ae274182fb83cc39c7496ed14df757523d"
+    },
+    {
+      "path": "ROADMAP.md",
+      "effect": "UPDATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": "05e876ee34a08149803dd32bf05bb77307d40860",
+      "expected_new_git_blob": "7ba7a1dd1ebafdce3628ebbd5722b2d841b7c608",
+      "new_worktree_sha256": "2e733cb60f6b75aa75368562d37b05daaa2fc6982a8da6e8945ffcc85b4c8bf8",
+      "new_bytes": 5625,
+      "apply_tracking_old_sha256": "6a1f85c2729d59743e4299d3593ecbd06167d58d798a0be5f53d9193e927396e"
+    },
+    {
+      "path": "STRATEGY_LOG.jsonl",
+      "effect": "UPDATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": "41e71808ea40c31c0c5db53767f138c8d338c609",
+      "expected_new_git_blob": "16a37e705f59a9e13e40fde00cc612e610e728f5",
+      "new_worktree_sha256": "a3d89af73b0170d25be9abfd72bc45b59d142c27662b8cb78cdab306dfddb2b5",
+      "new_bytes": 7280,
+      "apply_tracking_old_sha256": "606cc39c39180cdebc74ed6d8700ed41da5478cbba0202cf9c8fcb6124f01879"
+    },
+    {
+      "path": "adaptadores/chatgpt/INSTRUCOES.md",
+      "effect": "UPDATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": "fc13625a88d9bface97d5df0d151d2b87961ea0a",
+      "expected_new_git_blob": "cc05897d9e063b73d7f2e74f55d33945894a1451",
+      "new_worktree_sha256": "1ed85b13c289cd8faabff6dd4f945371463367203dbc6531952414cebbbaad78",
+      "new_bytes": 6479,
+      "apply_tracking_old_sha256": "1ed85b13c289cd8faabff6dd4f945371463367203dbc6531952414cebbbaad78"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-codex-sciv-f002-f004.md",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "4947d1660a0be81d1b651eb1f411fc68beaf9d5f",
+      "new_worktree_sha256": "78e31a38a5bc066dafbb104ba84edf47b0110c9d69e3f711b3fb7a9dc0d88b87",
+      "new_bytes": 7977,
+      "apply_tracking_old_sha256": "78e31a38a5bc066dafbb104ba84edf47b0110c9d69e3f711b3fb7a9dc0d88b87"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/gates-results.json",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "d95103a24a510f5a93a409079842cca8d789fe5b",
+      "new_worktree_sha256": "daea47d3a9d388da851ac517e74ad318e2670d1df4c28ed451add60767b0dddf",
+      "new_bytes": 2200,
+      "apply_tracking_old_sha256": "daea47d3a9d388da851ac517e74ad318e2670d1df4c28ed451add60767b0dddf"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/generator-results.json",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "ce0016555b6614d4606d699f4315086ad0087c4a",
+      "new_worktree_sha256": "0d15400cbbea7a9179a4467b8468531af5d1fb9ab60475b1bebbe098cca6ee71",
+      "new_bytes": 274,
+      "apply_tracking_old_sha256": "0d15400cbbea7a9179a4467b8468531af5d1fb9ab60475b1bebbe098cca6ee71"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/local-results.json",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "2f006d430df3f41c1a542a888cd5730401f694fa",
+      "new_worktree_sha256": "6b86df31b538f8dcd09710306870ce0956f67818965f5b1f294a5cfda7510725",
+      "new_bytes": 445,
+      "apply_tracking_old_sha256": "6b86df31b538f8dcd09710306870ce0956f67818965f5b1f294a5cfda7510725"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/provision-manifest.json",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "e6fe7b14bdf00212492dfaa04061a09a1e1d13de",
+      "new_worktree_sha256": "2844c7ede89ca558314c6fe1791e291fbf6996f9fac6149ac8978f90a3e04387",
+      "new_bytes": 3057,
+      "apply_tracking_old_sha256": null
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/run_checks.py",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "bd44b467ea2c6057e1ebe64989b12c863450cd70",
+      "new_worktree_sha256": "979b5465f4dbce0f1462084af0e5be76c64421e05b1898f821db0999ac24e1e4",
+      "new_bytes": 4067,
+      "apply_tracking_old_sha256": "979b5465f4dbce0f1462084af0e5be76c64421e05b1898f821db0999ac24e1e4"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/runtime-results.json",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "6ffaf7c5d01d531ea06d30e46b91f336c01338ba",
+      "new_worktree_sha256": "63002e9944aca949040c519bcedd2ad385150e785490634d8182955251fed78c",
+      "new_bytes": 666,
+      "apply_tracking_old_sha256": "63002e9944aca949040c519bcedd2ad385150e785490634d8182955251fed78c"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/sciv_local.py",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "2a292c3764d1720535e1f50cca33f6bdd4e852fe",
+      "new_worktree_sha256": "21b8e5a803ad4f298182da24cf33c8d3cf24ba7f189adbbab983e6c7c9e0c264",
+      "new_bytes": 10601,
+      "apply_tracking_old_sha256": "21b8e5a803ad4f298182da24cf33c8d3cf24ba7f189adbbab983e6c7c9e0c264"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/test_sciv_local.py",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "ba6d7616d81bbcd037359127368af5d6e9260cf0",
+      "new_worktree_sha256": "87948a1cc137717a0af8c2e9e9a7c13bee1bcdc423183233f30cad80071f67a1",
+      "new_bytes": 6618,
+      "apply_tracking_old_sha256": "87948a1cc137717a0af8c2e9e9a7c13bee1bcdc423183233f30cad80071f67a1"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/verification.json",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "80d157b27e7841b718f4d56d84a3ab4130c2b8ec",
+      "new_worktree_sha256": "4c86f7462cca62f1f12cd657c1a397a78563ad544e8b0eeddfd49d3cbf215439",
+      "new_bytes": 3058,
+      "apply_tracking_old_sha256": null
+    },
+    {
+      "path": "comunicados/SCIV_STATE.json",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "df1d281f3b67d634029d2cb5501e0ec0cd73546f",
+      "new_worktree_sha256": "b172b411876fe56e8d9821853fdc7c9bf66a88d4f0abf3ace719661ace5abf03",
+      "new_bytes": 561,
+      "apply_tracking_old_sha256": "b172b411876fe56e8d9821853fdc7c9bf66a88d4f0abf3ace719661ace5abf03"
+    },
+    {
+      "path": "comunicados/governanca-geral/historico/README.md",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "e1cb0ee871cd6d9b64ed7622115f69ff7d05efcd",
+      "new_worktree_sha256": "59962fa2e02d3ebcaf0692da1aa38d8019cbe296d102a781e3b976c86696e140",
+      "new_bytes": 628,
+      "apply_tracking_old_sha256": "59962fa2e02d3ebcaf0692da1aa38d8019cbe296d102a781e3b976c86696e140"
+    },
+    {
+      "path": "comunicados/governanca-geral/mensagens/README.md",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "4b4c91d47658517f82fc171387bbb2dd33ee538e",
+      "new_worktree_sha256": "1c619484016ec7d10088d5e4e7497efd426647f59598c0d0ea7ebba9de4dfa2d",
+      "new_bytes": 628,
+      "apply_tracking_old_sha256": "1c619484016ec7d10088d5e4e7497efd426647f59598c0d0ea7ebba9de4dfa2d"
+    },
+    {
+      "path": "comunicados/ia-especializada/historico/README.md",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "9a7cee79ace5b9ce61dfb6b9e64e9ce5111468cf",
+      "new_worktree_sha256": "8c0b34cfd3ab991e09fadebffdce14313bf2e8848159d080d3825b5a3619cdaa",
+      "new_bytes": 628,
+      "apply_tracking_old_sha256": "8c0b34cfd3ab991e09fadebffdce14313bf2e8848159d080d3825b5a3619cdaa"
+    },
+    {
+      "path": "comunicados/ia-especializada/mensagens/README.md",
+      "effect": "CREATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": null,
+      "expected_new_git_blob": "7922fe4f0e20143af6b5833c24afaf20ffe71036",
+      "new_worktree_sha256": "a5051db602c25b0745105a4f28f661746b460324508330f2048b63451d065db4",
+      "new_bytes": 628,
+      "apply_tracking_old_sha256": "a5051db602c25b0745105a4f28f661746b460324508330f2048b63451d065db4"
+    },
+    {
+      "path": "estrategias/EA-000007-000003-actions.json",
+      "effect": "UPDATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": "e3f5e94dfa488b30e52c8f8e5aff46664909b72a",
+      "expected_new_git_blob": "308666c37a2da648278914cebd1b610333d506b0",
+      "new_worktree_sha256": "21ba14eaf0e3c8d04c0dc4d7f44013d0b9087e43675650e9a35384cf702e95d1",
+      "new_bytes": 19134,
+      "apply_tracking_old_sha256": "ea933d203be6a8a561ac79aa23b149b6ac3550b3a3edb1edd0f9b179ed8e0709"
+    },
+    {
+      "path": "estrategias/EA-000007-000003-sciv-sob-demanda.md",
+      "effect": "UPDATE",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "expected_old_git_blob": "111616324808756cb0f1e2fa0adb4b39b9e42103",
+      "expected_new_git_blob": "a278862019201a8b44ee81ffc063ab0532979b9d",
+      "new_worktree_sha256": "049bee41f16b7572d356d612d8b04333bd8d8ed1e203197ce138acd43563189c",
+      "new_bytes": 7719,
+      "apply_tracking_old_sha256": "3b89e079261871260f97b5bb549aef99e9cd2157a0525a70292c765799ce1a8b"
+    }
+  ],
+  "tracking_writes": [
+    "PROJECT_STATE.json",
+    "ROADMAP.md",
+    "STRATEGY_LOG.jsonl",
+    "auditorias/EA-000007-000003-evidencias/provision-manifest.json",
+    "auditorias/EA-000007-000003-evidencias/verification.json",
+    "estrategias/EA-000007-000003-actions.json",
+    "estrategias/EA-000007-000003-sciv-sob-demanda.md"
+  ]
+}

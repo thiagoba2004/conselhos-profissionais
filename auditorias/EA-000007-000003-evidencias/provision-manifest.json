@@ -1,0 +1,74 @@
+{
+  "request_ref": "REQ-000007-20261015-006",
+  "base_commit": "8644e96215c4f812b53b5b57dac06248d21ecef2",
+  "generator_commit": "260365c810449c91b1759ee6cf0506b09e571a1a",
+  "template_blob_sha": "fbda0f93a84531be59b7f43cda11390a75b2c176",
+  "executor": "CODEX",
+  "effect_class": "LOCAL_DISABLED_DOCUMENTARY_PACKAGE",
+  "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+  "external_effects": [],
+  "public_push": "SEPARATE_HUMAN_AUTHORIZATION_REQUIRED",
+  "rollback": "Preserve partial state; reconcile exact hashes; new corrective commit after review. No automatic deletion/reset.",
+  "files": [
+    {
+      "path": "adaptadores/chatgpt/INSTRUCOES.md",
+      "effect": "UPDATE_MANAGED_BLOCK",
+      "action_key": "ACT-000007-000003-003",
+      "old_sha256": "09fb16a8c4884a5eb1a95efe2a4edecaca7a8f71a683bd4c507a4388d416d28b",
+      "new_sha256": "1ed85b13c289cd8faabff6dd4f945371463367203dbc6531952414cebbbaad78",
+      "old_blob_sha": "a78fc265cb41af8df91315dc6276ffa547985978",
+      "new_blob_sha": "679ef8bfb39149a81f4144fcb5206f101dcce8cc",
+      "new_bytes": 6479
+    },
+    {
+      "path": "comunicados/SCIV_STATE.json",
+      "effect": "CREATE",
+      "action_key": "ACT-000007-000003-002",
+      "old_sha256": null,
+      "new_sha256": "b172b411876fe56e8d9821853fdc7c9bf66a88d4f0abf3ace719661ace5abf03",
+      "old_blob_sha": null,
+      "new_blob_sha": "df1d281f3b67d634029d2cb5501e0ec0cd73546f",
+      "new_bytes": 561
+    },
+    {
+      "path": "comunicados/governanca-geral/historico/README.md",
+      "effect": "CREATE",
+      "action_key": "ACT-000007-000003-002",
+      "old_sha256": null,
+      "new_sha256": "59962fa2e02d3ebcaf0692da1aa38d8019cbe296d102a781e3b976c86696e140",
+      "old_blob_sha": null,
+      "new_blob_sha": "e1cb0ee871cd6d9b64ed7622115f69ff7d05efcd",
+      "new_bytes": 628
+    },
+    {
+      "path": "comunicados/governanca-geral/mensagens/README.md",
+      "effect": "CREATE",
+      "action_key": "ACT-000007-000003-002",
+      "old_sha256": null,
+      "new_sha256": "1c619484016ec7d10088d5e4e7497efd426647f59598c0d0ea7ebba9de4dfa2d",
+      "old_blob_sha": null,
+      "new_blob_sha": "4b4c91d47658517f82fc171387bbb2dd33ee538e",
+      "new_bytes": 628
+    },
+    {
+      "path": "comunicados/ia-especializada/historico/README.md",
+      "effect": "CREATE",
+      "action_key": "ACT-000007-000003-002",
+      "old_sha256": null,
+      "new_sha256": "8c0b34cfd3ab991e09fadebffdce14313bf2e8848159d080d3825b5a3619cdaa",
+      "old_blob_sha": null,
+      "new_blob_sha": "9a7cee79ace5b9ce61dfb6b9e64e9ce5111468cf",
+      "new_bytes": 628
+    },
+    {
+      "path": "comunicados/ia-especializada/mensagens/README.md",
+      "effect": "CREATE",
+      "action_key": "ACT-000007-000003-002",
+      "old_sha256": null,
+      "new_sha256": "a5051db602c25b0745105a4f28f661746b460324508330f2048b63451d065db4",
+      "old_blob_sha": null,
+      "new_blob_sha": "7922fe4f0e20143af6b5833c24afaf20ffe71036",
+      "new_bytes": 628
+    }
+  ]
+}

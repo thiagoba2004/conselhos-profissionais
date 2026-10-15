@@ -1,0 +1,67 @@
+{
+  "routing": [
+    {
+      "status": "ALLOW",
+      "action_id": "CODE_REFACTOR",
+      "requested_executor": "CODEX",
+      "required_executor": "CODEX",
+      "project_code": "PRJ-000007",
+      "reason": null,
+      "routing_only": true,
+      "grants_authorization": false,
+      "executes_effects": false
+    },
+    {
+      "status": "ALLOW",
+      "action_id": "TEST_EXECUTION",
+      "requested_executor": "CODEX",
+      "required_executor": "CODEX",
+      "project_code": "PRJ-000007",
+      "reason": null,
+      "routing_only": true,
+      "grants_authorization": false,
+      "executes_effects": false
+    }
+  ],
+  "action_matrix": {
+    "status": "PASS",
+    "strategy_code": "EA-000007-000003",
+    "matrix_ref": "estrategias/EA-000007-000003-actions.json",
+    "declared_actions": 7,
+    "phases_covered": 6,
+    "phase_total": 6,
+    "errors": [],
+    "limitation": "Structural contract only; action_id catalog routing, capability, PEP authorization and effects require independent runtime checks."
+  },
+  "generator_sciv": {
+    "status": "FAIL",
+    "gate": "sciv",
+    "route": "B",
+    "evidence": {
+      "initial_strategy": "EA-000007-000001",
+      "initial_plan": "estrategias/EA-000007-000001-constituicao-publica.md",
+      "phases": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "action_plan_result": "FAIL",
+      "action_plan_errors": [
+        "FILE_MISSING:estrategias/EA-000007-000001-actions.json",
+        "ACTION_MATRIX_INVALID_JSON",
+        "ACTION_MATRIX_STRATEGY_MISMATCH",
+        "NO_ACTIONS_DEFINED",
+        "PHASES_WITHOUT_ACTIONS:F-000007-000001-001,F-000007-000001-002,F-000007-000001-003,F-000007-000001-004"
+      ],
+      "sciv_action_plan_result": "PASS",
+      "sciv_strategy": "EA-000007-000003",
+      "sciv_mode": "ON_DEMAND"
+    },
+    "errors": [
+      "FIRST_EA_ACTION_PLAN_UNVERIFIED"
+    ],
+    "limitation": "Documentary consistency only; never native UI attestation, A6/B8 acceptance or live PEP authorization. Site checks do not verify live deploy/HTTP, visual portfolio distinction, browser navigation or full accessibility."
+  },
+  "python": "3.12.14"
+}

@@ -32,3 +32,7 @@ Repositório público: somente S0 ou S1 expressamente revisado. Proibidos S2+, c
 A recuperação de teste real de symlink do sistema operacional permanece condição de segurança antes de uso operacional, sem reaproveitar SKIP de outros projetos como PASS. Não afirmar PEP live, aprovação de C3, vínculo nativo ou aceite B8 por instalação documental. Se projeto/checkout e executor CODEX não estiverem disponíveis, manter F002 como `READY_FOR_CODEX_LOCAL` ou `BLOCKED_CAPABILITY`, com causa, sem executar por CHAT.
 
 **Rastro e estado de fase:** F001 registrada sob pedido `REQ-000007-20261012-005`, evento `CREATED` e readback dual; F002/F003/F004 não realizadas por este registro. `EA-000007-000002` Site permanece ativa e bloqueada na F004 por Pages, independente dos atos desta EA.
+
+## Checkpoint de execução CODEX — 15/10/2026
+
+Pedido `REQ-000007-20261015-006`. F002/F003 aplicadas localmente com manifesto, preservação de bytes e reaplicação sem efeitos. Gates `CAIXAS_VERSIONADAS` e `INSTRUCOES_VERSIONADAS` aguardam publicação autorizada/readback remoto. F004 **BLOCKED** pelo gate `FIRST_EA_ACTION_PLAN_UNVERIFIED` do Gerador (EA constitutiva histórica), com 257 PASS e 2 SKIP de symlink físico Windows. Não retroagir matriz ou editar evento append-only. [Relatório técnico](../auditorias/EA-000007-000003-codex-sciv-f002-f004.md). Site principal e F005/F006 preservados, SCIV `enabled=false`. Decisão material pendente: publicação do pacote e encaminhamento por G0 da compatibilidade histórica do gate.
