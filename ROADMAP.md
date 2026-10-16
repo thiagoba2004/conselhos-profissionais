@@ -61,3 +61,7 @@ persistida. Até essa reconciliação, o estado substantivo permanece
 ## Checkpoint CODEX — 15/10/2026
 
 [Relatório F002–F004](auditorias/EA-000007-000003-codex-sciv-f002-f004.md). Pacote local aplicado, SCIV desativado; gates de versão remota pendentes. F004 bloqueada pelo gate histórico do Gerador, sem modificar logs anteriores. Titular/G0 decide publicação e encaminhamento do bloqueio. Site/Pages e F005/F006 SCIV permanecem sem promoção.
+
+## Rerun F004 — 15/10/2026
+
+REQ-000007-20261015-008: correcao do Gerador 2af1258c4867da3bd59b0a3ff332f7e34f94bb6c; Rota B/SCIV PASS, 266 PASS / 2 SKIP finais. ERROR inicial de encoding runtime preservado; retry UTF-8 passou. F002/F003 readback remoto verificado; rerun F004 aguarda publicacao/readback. Dois symlinks fisicos nao aprovados, uso operacional bloqueado. SCIV enabled=false, Site/Pages e F005/F006 preservados. Relatorio: auditorias/EA-000007-000003-rerun-f004-2026-10-15/RELATORIO.md.

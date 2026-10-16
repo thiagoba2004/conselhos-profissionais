@@ -1,0 +1,13 @@
+{
+  "suite": "generator",
+  "run": 97,
+  "pass": 97,
+  "fail": 0,
+  "error": 0,
+  "skip": 0,
+  "skipped": [],
+  "failures": [],
+  "errors": [],
+  "limitation": "Offline fixtures only; no independent attestation, native UI or live PEP.",
+  "python": "3.12.10"
+}

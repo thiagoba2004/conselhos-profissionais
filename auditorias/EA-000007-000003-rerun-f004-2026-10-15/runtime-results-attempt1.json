@@ -1,0 +1,30 @@
+{
+  "suite": "runtime",
+  "run": 159,
+  "pass": 157,
+  "fail": 0,
+  "error": 1,
+  "skip": 1,
+  "skipped": [
+    [
+      "test_real_symlink_denied (test_sciv_essential.EssentialTests.test_real_symlink_denied)",
+      "SKIP_ENV_NOT_SUPPORTED: real symlink creation unavailable (22, winerror=1314)"
+    ]
+  ],
+  "failures": [],
+  "errors": [
+    [
+      "test_cli_recovery_across_actual_python_processes (test_sciv_essential.EssentialTests.test_cli_recovery_across_actual_python_processes)",
+      "Traceback (most recent call last):\n  File \"C:\\Users\\sony\\AppData\\Local\\Temp\\prj000007-sciv-20261015-governance\\runtime\\test_sciv_essential.py\", line 279, in test_cli_recovery_across_actual_python_processes\n    (root / \"history.json\").write_text(json.dumps([json.loads(first)]))\n                                                   ^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\sony\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py\", line 341, in loads\n    s = s.decode(detect_encoding(s), 'surrogatepass')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xed in position 73: invalid continuation byte\n"
+    ]
+  ],
+  "limitation": "Offline fixtures only; no independent attestation, native UI or live PEP.",
+  "python": "3.12.10",
+  "dependency_versions": {
+    "jsonschema": "4.25.1",
+    "attrs": "26.1.0",
+    "referencing": "0.37.0",
+    "rpds-py": "2026.9.1",
+    "jsonschema-specifications": "2025.9.1"
+  }
+}

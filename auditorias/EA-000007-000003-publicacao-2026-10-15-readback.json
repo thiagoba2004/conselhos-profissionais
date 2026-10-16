@@ -1,0 +1,144 @@
+{
+  "request_ref": "REQ-000007-20261015-007",
+  "timestamp_utc": "2026-10-15T22:34:51.325060+00:00",
+  "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+  "repository": "thiagoba2004/conselhos-profissionais",
+  "branch": "main",
+  "published_commit": "38bfb1bdf247a0f06df383a2233443b8c487fc66",
+  "remote_ref_observed": "38bfb1bdf247a0f06df383a2233443b8c487fc66",
+  "push_count": 1,
+  "push_mode": "NORMAL_FAST_FORWARD_NO_FORCE",
+  "remote_before_push": "8644e96215c4f812b53b5b57dac06248d21ecef2",
+  "remote_divergence_observed": false,
+  "transport_verification": "git ls-remote and separate fresh bare shallow clone after push; all 23 file bytes and root tree match",
+  "preflight_sha256": "3fc785fe183c1dbce2c519ce362c6c4dd3ae86bbab8cbf3f46cd447dfe8a5b02",
+  "files_verified": [
+    {
+      "path": "PROJECT_STATE.json",
+      "sha256": "50a21edc053bb4e206414aa1079eaff2ca4a9197349cdd78071f10526f0a3715",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "REQUEST_LOG.jsonl",
+      "sha256": "b1ab7edf818447a328143922a3fae95c6d5742a64707d923607c67e88d78185a",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "5216760fa118edcf8a45ab018bca2dcf92ccbd500d2eecbaf24dcc1ee0339c61",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "STRATEGY_LOG.jsonl",
+      "sha256": "032194a1bbd11cc4c82fb1348e6fee3bb53c758080f6a9bfd45e2b88a528d4a6",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "adaptadores/chatgpt/INSTRUCOES.md",
+      "sha256": "08072696cf4ba1787dab4e68aa43677c64a5e4df37a0b3230c51606632acb03c",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-codex-sciv-f002-f004.md",
+      "sha256": "78e31a38a5bc066dafbb104ba84edf47b0110c9d69e3f711b3fb7a9dc0d88b87",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/delivery-manifest.json",
+      "sha256": "c8b1fd8360f8f007bc75bc00cb4ffac49d349a66be36b300600c16847838f85c",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/gates-results.json",
+      "sha256": "373ba3e0a448ff52b12d0b449c4bb57a1d43a4b9b94d213b21af6eef165a15f6",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/generator-results.json",
+      "sha256": "beff39e62c6bce24ba2f2aae0ea436b09e339a998dcf77204452d15a216abf35",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/local-results.json",
+      "sha256": "792a2a7a29c6782d84209873c392b257d072ebcc315eb73c119f159be80569b8",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/provision-manifest.json",
+      "sha256": "def27a0c234048bdbc17300765fff753a2341755e830f45d93b6dc2f142807ec",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/run_checks.py",
+      "sha256": "979b5465f4dbce0f1462084af0e5be76c64421e05b1898f821db0999ac24e1e4",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/runtime-results.json",
+      "sha256": "3a73bbcc27250cc3d97200145772909b70f4230bb219b33b6004b8a4dc602ef4",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/sciv_local.py",
+      "sha256": "21b8e5a803ad4f298182da24cf33c8d3cf24ba7f189adbbab983e6c7c9e0c264",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/test_sciv_local.py",
+      "sha256": "87948a1cc137717a0af8c2e9e9a7c13bee1bcdc423183233f30cad80071f67a1",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/verification.json",
+      "sha256": "4c86f7462cca62f1f12cd657c1a397a78563ad544e8b0eeddfd49d3cbf215439",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "comunicados/SCIV_STATE.json",
+      "sha256": "b172b411876fe56e8d9821853fdc7c9bf66a88d4f0abf3ace719661ace5abf03",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "comunicados/governanca-geral/historico/README.md",
+      "sha256": "59962fa2e02d3ebcaf0692da1aa38d8019cbe296d102a781e3b976c86696e140",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "comunicados/governanca-geral/mensagens/README.md",
+      "sha256": "1c619484016ec7d10088d5e4e7497efd426647f59598c0d0ea7ebba9de4dfa2d",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "comunicados/ia-especializada/historico/README.md",
+      "sha256": "8c0b34cfd3ab991e09fadebffdce14313bf2e8848159d080d3825b5a3619cdaa",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "comunicados/ia-especializada/mensagens/README.md",
+      "sha256": "a5051db602c25b0745105a4f28f661746b460324508330f2048b63451d065db4",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "estrategias/EA-000007-000003-actions.json",
+      "sha256": "21ba14eaf0e3c8d04c0dc4d7f44013d0b9087e43675650e9a35384cf702e95d1",
+      "remote_bytes_equal_authorized_commit": true
+    },
+    {
+      "path": "estrategias/EA-000007-000003-sciv-sob-demanda.md",
+      "sha256": "278de3260e3313390ca2e09be08ea566bdc9dddbbb0277ac2c7a90d0a6f685f2",
+      "remote_bytes_equal_authorized_commit": true
+    }
+  ],
+  "enabled": false,
+  "F004": "BLOCKED",
+  "blocker": "FIRST_EA_ACTION_PLAN_UNVERIFIED",
+  "site_strategy": "EA-000007-000002",
+  "site_status": "BLOCKED_ADMIN_CONFIGURATION_REQUIRED",
+  "historical_ea_changed": false,
+  "pages_configuration_changed": false,
+  "native_instructions_installed": false,
+  "global_repository_written": false,
+  "followup_owner": "Governanca Geral forwards compatibility correction to Generator executor; no local retroactive edits",
+  "record_persistence": "LOCAL_ONLY_NOT_INCLUDED_IN_AUTHORIZED_CHECKPOINT; no second push performed",
+  "historical_checkpoint_publication_flags": "The immutable checkpoint describes the pre-publication state; this receipt records only the subsequent publication/readback, with no F004 gate promotion."
+}

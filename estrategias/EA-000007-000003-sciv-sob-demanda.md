@@ -36,3 +36,7 @@ A recuperação de teste real de symlink do sistema operacional permanece condi�
 ## Checkpoint de execução CODEX — 15/10/2026
 
 Pedido `REQ-000007-20261015-006`. F002/F003 aplicadas localmente com manifesto, preservação de bytes e reaplicação sem efeitos. Gates `CAIXAS_VERSIONADAS` e `INSTRUCOES_VERSIONADAS` aguardam publicação autorizada/readback remoto. F004 **BLOCKED** pelo gate `FIRST_EA_ACTION_PLAN_UNVERIFIED` do Gerador (EA constitutiva histórica), com 257 PASS e 2 SKIP de symlink físico Windows. Não retroagir matriz ou editar evento append-only. [Relatório técnico](../auditorias/EA-000007-000003-codex-sciv-f002-f004.md). Site principal e F005/F006 preservados, SCIV `enabled=false`. Decisão material pendente: publicação do pacote e encaminhamento por G0 da compatibilidade histórica do gate.
+
+## Rerun F004 — 15/10/2026
+
+REQ-000007-20261015-008: correcao do Gerador 2af1258c4867da3bd59b0a3ff332f7e34f94bb6c; Rota B/SCIV PASS, 266 PASS / 2 SKIP finais. ERROR inicial de encoding runtime preservado; retry UTF-8 passou. F002/F003 readback remoto verificado; rerun F004 aguarda publicacao/readback. Dois symlinks fisicos nao aprovados, uso operacional bloqueado. SCIV enabled=false, Site/Pages e F005/F006 preservados. Relatorio: auditorias/EA-000007-000003-rerun-f004-2026-10-15/RELATORIO.md.

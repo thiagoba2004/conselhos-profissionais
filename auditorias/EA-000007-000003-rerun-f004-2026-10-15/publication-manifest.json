@@ -1,0 +1,155 @@
+{
+  "request_ref": "REQ-000007-20261015-008",
+  "base_commit": "38bfb1bdf247a0f06df383a2233443b8c487fc66",
+  "publication": "NORMAL_PUSH_NO_FORCE",
+  "scope": "F004 evidence, tracking, historical publication receipts; reviewed publicable",
+  "review": "Human-authorized technical artifacts; no secrets or private case data found; not a full historic security audit",
+  "recovery": "New corrective commit; preserve full history and receipts",
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "path": "PROJECT_STATE.json",
+      "effect": "UPDATE",
+      "old_git_sha256": "50a21edc053bb4e206414aa1079eaff2ca4a9197349cdd78071f10526f0a3715",
+      "new_git_sha256": "0db47c894775d1b7acbc041fdfb566393f5bf2eeca2db7b83d925282be468fa1",
+      "new_worktree_sha256": "af66132a5f8a440261dcf4f369769b0b0f1bbaa26a938eed3e6cf7dbce233fb3",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "REQUEST_LOG.jsonl",
+      "effect": "UPDATE",
+      "old_git_sha256": "b1ab7edf818447a328143922a3fae95c6d5742a64707d923607c67e88d78185a",
+      "new_git_sha256": "9e372a7d6cd3d5fcbe65577e842a10740d657d4fb9b5df723ffda74951517798",
+      "new_worktree_sha256": "907552a1c4b5adb748ff4873367f67df507d4aa4be7d54e19d2d1520d878a1e8",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "ROADMAP.md",
+      "effect": "UPDATE",
+      "old_git_sha256": "5216760fa118edcf8a45ab018bca2dcf92ccbd500d2eecbaf24dcc1ee0339c61",
+      "new_git_sha256": "8ecfb4e0074697f1805551cba8506a0a2a7af6a76a3c9643260de5d322f11cc5",
+      "new_worktree_sha256": "ef202dfa297fdf417ec9977acb11c69b75821e3016a9f39f6c93433223a6e7aa",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "STRATEGY_LOG.jsonl",
+      "effect": "UPDATE",
+      "old_git_sha256": "032194a1bbd11cc4c82fb1348e6fee3bb53c758080f6a9bfd45e2b88a528d4a6",
+      "new_git_sha256": "a2b941aaa37375f8f304eb012a33f72fc13934b095d09be7295448745d875627",
+      "new_worktree_sha256": "203e244c7865b02f234c42fcc2fa5abcd6c9ff7343780ffd6d3a7ef56114d0f9",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-publicacao-2026-10-15-preflight.json",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "928b0c73afd1ff6f22f5b67da620ed069fa84cd729bfaf046b18a5ebab330ac2",
+      "new_worktree_sha256": "3fc785fe183c1dbce2c519ce362c6c4dd3ae86bbab8cbf3f46cd447dfe8a5b02",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-publicacao-2026-10-15-readback.json",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "bb159a6b73eed09a7ce37e41bcd83bd24011c0af4c58b329cfa09afbac3b55eb",
+      "new_worktree_sha256": "bb159a6b73eed09a7ce37e41bcd83bd24011c0af4c58b329cfa09afbac3b55eb",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/RELATORIO.md",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "ff1f36f068ef9e6e987f41fb1f2a9400ba52534e0fb6148c151ba949dc4ff900",
+      "new_worktree_sha256": "ff1f36f068ef9e6e987f41fb1f2a9400ba52534e0fb6148c151ba949dc4ff900",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/gates-results.json",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "5ff4a2241b9ab36dbb9c717f0ca41c70f68e7624504cdb183f13867c2ae8f66d",
+      "new_worktree_sha256": "8da0dec33e807c3c893dd3dba5d59ef4a6e443afc316dfce7a4e983ce6eb99b2",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/generator-results.json",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "0bcb9d11a10263aa3cdc4bc7389c9f796863e6127f7003755355f50288b2d172",
+      "new_worktree_sha256": "ac1850c39cc6ccdf66128afb00970b93e747d1349b9c26f53e4f24ae69909ad5",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/local-results.json",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "2ecd3ad11f89c4998da7e9bfe555a8521f34f1b930ccc04868efaf408c650dc0",
+      "new_worktree_sha256": "d92556dea6bfdfbf7ea13d0c725bb6df3e0efdc3f65ba11ba78d705abd773a3c",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/prepare_publication.py",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "8d415a76b6c58c144a947d35c92407fb5d4eac92c6594a9ad8dfddb472f3aa89",
+      "new_worktree_sha256": "8d415a76b6c58c144a947d35c92407fb5d4eac92c6594a9ad8dfddb472f3aa89",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/run_checks.py",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "91cef3ce786b78853c3179242aa026d5af37b10d92f0e1951e46abbec021c90c",
+      "new_worktree_sha256": "91cef3ce786b78853c3179242aa026d5af37b10d92f0e1951e46abbec021c90c",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/runtime-results-attempt1.json",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "a5ae6c8f5ca21b4e2ad29bf1ff8d46faee64c8a0e5cb17d50e358b266eb6eef0",
+      "new_worktree_sha256": "9303fe76d3e794a682e193adc0afa696cc9d2720c9d193211d3f8b769764f80b",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/runtime-results.json",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "3a73bbcc27250cc3d97200145772909b70f4230bb219b33b6004b8a4dc602ef4",
+      "new_worktree_sha256": "63002e9944aca949040c519bcedd2ad385150e785490634d8182955251fed78c",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/verification.json",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "99bdd2ee7aec75ffb05100cb5e6a73e3b97472fe0eafd7ab09b900645240119b",
+      "new_worktree_sha256": "95315c2bde96f0f35f74494dee36fb07dd45f96105fc5667d76cd1956d42f026",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/verify_package.py",
+      "effect": "CREATE",
+      "old_git_sha256": null,
+      "new_git_sha256": "98397b2e9572137abf345e16c41a4bcbe9e8f15eb5dc7a7918c5d445d238e356",
+      "new_worktree_sha256": "98397b2e9572137abf345e16c41a4bcbe9e8f15eb5dc7a7918c5d445d238e356",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "estrategias/EA-000007-000003-actions.json",
+      "effect": "UPDATE",
+      "old_git_sha256": "21ba14eaf0e3c8d04c0dc4d7f44013d0b9087e43675650e9a35384cf702e95d1",
+      "new_git_sha256": "cee0bcf530b78f982d1fb1a077d6f800060a6e7fe0ed5ab19048f8e6d25158bc",
+      "new_worktree_sha256": "6a4f97a5766c96089b183a170f4bdb9acb91122038dca4252882a2dd356fc913",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    {
+      "path": "estrategias/EA-000007-000003-sciv-sob-demanda.md",
+      "effect": "UPDATE",
+      "old_git_sha256": "278de3260e3313390ca2e09be08ea566bdc9dddbbb0277ac2c7a90d0a6f685f2",
+      "new_git_sha256": "24d746aae1a1ccb0fb669c505b325d4ad032a4de01fe13c44a3efebd56ceed1a",
+      "new_worktree_sha256": "68953d54c7427b3c70e1039e291b136d2ec60d557aebb059745f734f16b375e4",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    }
+  ]
+}

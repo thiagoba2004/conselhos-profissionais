@@ -1,0 +1,223 @@
+{
+  "request_ref": "REQ-000007-20261015-007",
+  "commit": "38bfb1bdf247a0f06df383a2233443b8c487fc66",
+  "base_commit": "8644e96215c4f812b53b5b57dac06248d21ecef2",
+  "reviewed_files": [
+    {
+      "path": "PROJECT_STATE.json",
+      "git_blob_sha": "05e3278a2371b92878a165fb1bf92fdb1283ff61",
+      "git_bytes_sha256": "50a21edc053bb4e206414aa1079eaff2ca4a9197349cdd78071f10526f0a3715",
+      "bytes": 6290,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "REQUEST_LOG.jsonl",
+      "git_blob_sha": "9a03b1d21a61936387f9b6d0d8f26fbb5acf7b2f",
+      "git_bytes_sha256": "b1ab7edf818447a328143922a3fae95c6d5742a64707d923607c67e88d78185a",
+      "bytes": 5329,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "ROADMAP.md",
+      "git_blob_sha": "7ba7a1dd1ebafdce3628ebbd5722b2d841b7c608",
+      "git_bytes_sha256": "5216760fa118edcf8a45ab018bca2dcf92ccbd500d2eecbaf24dcc1ee0339c61",
+      "bytes": 5566,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "STRATEGY_LOG.jsonl",
+      "git_blob_sha": "16a37e705f59a9e13e40fde00cc612e610e728f5",
+      "git_bytes_sha256": "032194a1bbd11cc4c82fb1348e6fee3bb53c758080f6a9bfd45e2b88a528d4a6",
+      "bytes": 7272,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "adaptadores/chatgpt/INSTRUCOES.md",
+      "git_blob_sha": "cc05897d9e063b73d7f2e74f55d33945894a1451",
+      "git_bytes_sha256": "08072696cf4ba1787dab4e68aa43677c64a5e4df37a0b3230c51606632acb03c",
+      "bytes": 6464,
+      "scope": "F003 managed block; specialized content retained",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-codex-sciv-f002-f004.md",
+      "git_blob_sha": "4947d1660a0be81d1b651eb1f411fc68beaf9d5f",
+      "git_bytes_sha256": "78e31a38a5bc066dafbb104ba84edf47b0110c9d69e3f711b3fb7a9dc0d88b87",
+      "bytes": 7977,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/delivery-manifest.json",
+      "git_blob_sha": "0741811cac79c4d22f7a903cbdd81d05174f0fd6",
+      "git_bytes_sha256": "c8b1fd8360f8f007bc75bc00cb4ffac49d349a66be36b300600c16847838f85c",
+      "bytes": 12009,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/gates-results.json",
+      "git_blob_sha": "d95103a24a510f5a93a409079842cca8d789fe5b",
+      "git_bytes_sha256": "373ba3e0a448ff52b12d0b449c4bb57a1d43a4b9b94d213b21af6eef165a15f6",
+      "bytes": 2133,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/generator-results.json",
+      "git_blob_sha": "ce0016555b6614d4606d699f4315086ad0087c4a",
+      "git_bytes_sha256": "beff39e62c6bce24ba2f2aae0ea436b09e339a998dcf77204452d15a216abf35",
+      "bytes": 261,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/local-results.json",
+      "git_blob_sha": "2f006d430df3f41c1a542a888cd5730401f694fa",
+      "git_bytes_sha256": "792a2a7a29c6782d84209873c392b257d072ebcc315eb73c119f159be80569b8",
+      "bytes": 427,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/provision-manifest.json",
+      "git_blob_sha": "e6fe7b14bdf00212492dfaa04061a09a1e1d13de",
+      "git_bytes_sha256": "def27a0c234048bdbc17300765fff753a2341755e830f45d93b6dc2f142807ec",
+      "bytes": 2983,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/run_checks.py",
+      "git_blob_sha": "bd44b467ea2c6057e1ebe64989b12c863450cd70",
+      "git_bytes_sha256": "979b5465f4dbce0f1462084af0e5be76c64421e05b1898f821db0999ac24e1e4",
+      "bytes": 4067,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/runtime-results.json",
+      "git_blob_sha": "6ffaf7c5d01d531ea06d30e46b91f336c01338ba",
+      "git_bytes_sha256": "3a73bbcc27250cc3d97200145772909b70f4230bb219b33b6004b8a4dc602ef4",
+      "bytes": 641,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/sciv_local.py",
+      "git_blob_sha": "2a292c3764d1720535e1f50cca33f6bdd4e852fe",
+      "git_bytes_sha256": "21b8e5a803ad4f298182da24cf33c8d3cf24ba7f189adbbab983e6c7c9e0c264",
+      "bytes": 10601,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/test_sciv_local.py",
+      "git_blob_sha": "ba6d7616d81bbcd037359127368af5d6e9260cf0",
+      "git_bytes_sha256": "87948a1cc137717a0af8c2e9e9a7c13bee1bcdc423183233f30cad80071f67a1",
+      "bytes": 6618,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "auditorias/EA-000007-000003-evidencias/verification.json",
+      "git_blob_sha": "80d157b27e7841b718f4d56d84a3ab4130c2b8ec",
+      "git_bytes_sha256": "4c86f7462cca62f1f12cd657c1a397a78563ad544e8b0eeddfd49d3cbf215439",
+      "bytes": 3058,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "comunicados/SCIV_STATE.json",
+      "git_blob_sha": "df1d281f3b67d634029d2cb5501e0ec0cd73546f",
+      "git_bytes_sha256": "b172b411876fe56e8d9821853fdc7c9bf66a88d4f0abf3ace719661ace5abf03",
+      "bytes": 561,
+      "scope": "F002 disabled state and empty bilateral mailboxes",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "comunicados/governanca-geral/historico/README.md",
+      "git_blob_sha": "e1cb0ee871cd6d9b64ed7622115f69ff7d05efcd",
+      "git_bytes_sha256": "59962fa2e02d3ebcaf0692da1aa38d8019cbe296d102a781e3b976c86696e140",
+      "bytes": 628,
+      "scope": "F002 disabled state and empty bilateral mailboxes",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "comunicados/governanca-geral/mensagens/README.md",
+      "git_blob_sha": "4b4c91d47658517f82fc171387bbb2dd33ee538e",
+      "git_bytes_sha256": "1c619484016ec7d10088d5e4e7497efd426647f59598c0d0ea7ebba9de4dfa2d",
+      "bytes": 628,
+      "scope": "F002 disabled state and empty bilateral mailboxes",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "comunicados/ia-especializada/historico/README.md",
+      "git_blob_sha": "9a7cee79ace5b9ce61dfb6b9e64e9ce5111468cf",
+      "git_bytes_sha256": "8c0b34cfd3ab991e09fadebffdce14313bf2e8848159d080d3825b5a3619cdaa",
+      "bytes": 628,
+      "scope": "F002 disabled state and empty bilateral mailboxes",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "comunicados/ia-especializada/mensagens/README.md",
+      "git_blob_sha": "7922fe4f0e20143af6b5833c24afaf20ffe71036",
+      "git_bytes_sha256": "a5051db602c25b0745105a4f28f661746b460324508330f2048b63451d065db4",
+      "bytes": 628,
+      "scope": "F002 disabled state and empty bilateral mailboxes",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "estrategias/EA-000007-000003-actions.json",
+      "git_blob_sha": "308666c37a2da648278914cebd1b610333d506b0",
+      "git_bytes_sha256": "21ba14eaf0e3c8d04c0dc4d7f44013d0b9087e43675650e9a35384cf702e95d1",
+      "bytes": 19134,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    },
+    {
+      "path": "estrategias/EA-000007-000003-sciv-sob-demanda.md",
+      "git_blob_sha": "a278862019201a8b44ee81ffc063ab0532979b9d",
+      "git_bytes_sha256": "278de3260e3313390ca2e09be08ea566bdc9dddbbb0277ac2c7a90d0a6f685f2",
+      "bytes": 7685,
+      "scope": "F002-F004 technical evidence, tests and local strategy tracking",
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE",
+      "secret_or_private_data_findings": []
+    }
+  ],
+  "all_23_reviewed": true,
+  "classification_review": "All bytes reviewed within prior engineering context plus current commit/readback checks and pattern scan; no secrets, private personal data or S2+ identified. Scope is this checkpoint, not a historical repository audit.",
+  "scope_matches_phase_plan": true,
+  "enabled": false,
+  "F004": "BLOCKED",
+  "blocker": "FIRST_EA_ACTION_PLAN_UNVERIFIED",
+  "site_and_historical_ea_preserved": true,
+  "push_authorization": "SPECIFIC_HUMAN_AUTHORIZATION_EXACT_COMMIT_NORMAL_PUSH_ONLY",
+  "new_request_log_is_local_only": true
+}

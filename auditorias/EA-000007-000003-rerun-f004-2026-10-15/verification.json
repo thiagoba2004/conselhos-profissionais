@@ -1,0 +1,532 @@
+{
+  "request_ref": "REQ-000007-20261015-008",
+  "base_commit": "38bfb1bdf247a0f06df383a2233443b8c487fc66",
+  "full_history": true,
+  "initial_commit_count": 55,
+  "append_only_prefix_preserved": true,
+  "outside_adapter_block_preserved": true,
+  "enabled": false,
+  "protected_files": [
+    {
+      "path": "AGENTS.md",
+      "git_sha256": "3423cbe6ac5c37e5b03bbb4c6434228a63a8b95daf6936fa60c600ed7758b8f8",
+      "git_blob": "eb389d4fcf1e7e8aa70c48e2568fc62828908e6f",
+      "worktree_sha256": "41c568b36cd3269b83b6b158c44268be47d33c5a387c4cffa216c6352fd8141e",
+      "unchanged": true
+    },
+    {
+      "path": "INFORMATION_HANDLING_PROFILE.json",
+      "git_sha256": "e0c8eab0a7305ea3589ba63ff89ffd14510b7a64745298fd0cd1fd474d2b2ed1",
+      "git_blob": "1a05b48447afcc2430fa7eeed9905ed6e9103191",
+      "worktree_sha256": "6dbabb23dd31ae4217b65fcdc25ec2b5efb8609329bde3611a091566c6a65396",
+      "unchanged": true
+    },
+    {
+      "path": "MISSAO_E_ESCOPO.md",
+      "git_sha256": "4ebfd2874bca96ce6196bb3d07644840fd9c201eca05cf517b1c4c6f73b65096",
+      "git_blob": "d20b7a4d90c3025ab25f171cad24ae5f2fc5616f",
+      "worktree_sha256": "3c27125d1fc196e4ff990002e54a10488081a7ad13c2614f879d74ad30d32ba9",
+      "unchanged": true
+    },
+    {
+      "path": "SITE_ARCHITECTURE.md",
+      "git_sha256": "742e231ad85442752cfac17f51a4d0ed44e4695a85436ee675fa04523ce3794a",
+      "git_blob": "ae42c384a9da6e81c96a6cb73c61582e3cf35b49",
+      "worktree_sha256": "0611f85e1f321952a0a87d2ea6468341c6c9b06298a1323f7145494211ea4145",
+      "unchanged": true
+    },
+    {
+      "path": "SITE_STYLE_GUIDE.md",
+      "git_sha256": "4f2dc15dcad53dd25183498a81d21916b9f2f57113697641ebcda6eb897e7eb0",
+      "git_blob": "f05ef017a45155be12509b21d0f75f307b76b481",
+      "worktree_sha256": "d1ab21acbdf8bf25557b30c30b1a19c55edf98400e500ee2538102fe66d31e99",
+      "unchanged": true
+    },
+    {
+      "path": "adaptadores/chatgpt/INSTRUCOES.md",
+      "git_sha256": "08072696cf4ba1787dab4e68aa43677c64a5e4df37a0b3230c51606632acb03c",
+      "git_blob": "cc05897d9e063b73d7f2e74f55d33945894a1451",
+      "worktree_sha256": "1ed85b13c289cd8faabff6dd4f945371463367203dbc6531952414cebbbaad78",
+      "unchanged": true
+    },
+    {
+      "path": "comunicados/SCIV_STATE.json",
+      "git_sha256": "b172b411876fe56e8d9821853fdc7c9bf66a88d4f0abf3ace719661ace5abf03",
+      "git_blob": "df1d281f3b67d634029d2cb5501e0ec0cd73546f",
+      "worktree_sha256": "b172b411876fe56e8d9821853fdc7c9bf66a88d4f0abf3ace719661ace5abf03",
+      "unchanged": true
+    },
+    {
+      "path": "comunicados/governanca-geral/historico/README.md",
+      "git_sha256": "59962fa2e02d3ebcaf0692da1aa38d8019cbe296d102a781e3b976c86696e140",
+      "git_blob": "e1cb0ee871cd6d9b64ed7622115f69ff7d05efcd",
+      "worktree_sha256": "59962fa2e02d3ebcaf0692da1aa38d8019cbe296d102a781e3b976c86696e140",
+      "unchanged": true
+    },
+    {
+      "path": "comunicados/governanca-geral/mensagens/README.md",
+      "git_sha256": "1c619484016ec7d10088d5e4e7497efd426647f59598c0d0ea7ebba9de4dfa2d",
+      "git_blob": "4b4c91d47658517f82fc171387bbb2dd33ee538e",
+      "worktree_sha256": "1c619484016ec7d10088d5e4e7497efd426647f59598c0d0ea7ebba9de4dfa2d",
+      "unchanged": true
+    },
+    {
+      "path": "comunicados/ia-especializada/historico/README.md",
+      "git_sha256": "8c0b34cfd3ab991e09fadebffdce14313bf2e8848159d080d3825b5a3619cdaa",
+      "git_blob": "9a7cee79ace5b9ce61dfb6b9e64e9ce5111468cf",
+      "worktree_sha256": "8c0b34cfd3ab991e09fadebffdce14313bf2e8848159d080d3825b5a3619cdaa",
+      "unchanged": true
+    },
+    {
+      "path": "comunicados/ia-especializada/mensagens/README.md",
+      "git_sha256": "a5051db602c25b0745105a4f28f661746b460324508330f2048b63451d065db4",
+      "git_blob": "7922fe4f0e20143af6b5833c24afaf20ffe71036",
+      "worktree_sha256": "a5051db602c25b0745105a4f28f661746b460324508330f2048b63451d065db4",
+      "unchanged": true
+    },
+    {
+      "path": "docs/eixos.md",
+      "git_sha256": "4b09b5271378051aa05a21ec91ba9203743cc424a2edc7badf1359e0c61c87c7",
+      "git_blob": "aa284ce1eb323d5e9d63536cfbd2be25bf1107f4",
+      "worktree_sha256": "d59ed76c7c8b4ceb8813c955f7f5c54f9702d1bf5bfd5dcc851aed144296f6ee",
+      "unchanged": true
+    },
+    {
+      "path": "docs/fontes.md",
+      "git_sha256": "7da31fd09a1aa2afa2d1f8d548be2ea3bccced6aecb30be793637edf039184aa",
+      "git_blob": "3da65033be187683e0fe6781e80f39773fbd1d1a",
+      "worktree_sha256": "64c8a7266fb5d983d563f0fb50b261f0bc09a2f885af55986ddda2b04c1d034f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/index.md",
+      "git_sha256": "e276db3564b7ec2b8ee136d6fc7ea837b1fbb836b703fc7a30d5319ef6fee3b9",
+      "git_blob": "25d58f9199437d566b9a1c88bf89378352aa898c",
+      "worktree_sha256": "9c0a9bfc43b2266ee1a7e2ab48d9d4a505f3b4d11cad654b6ab5ecdfd0ef3491",
+      "unchanged": true
+    },
+    {
+      "path": "docs/sobre.md",
+      "git_sha256": "d6732e084b947d90379d8b23e4b8137489f9e58f250e817b716f5ff48e18adf5",
+      "git_blob": "226de962b419aeb9a87ef7b365238792f0557398",
+      "worktree_sha256": "fb4edaed0fdf92dc5dc67346c6a27526226293c44649044949c4eb6b64a4def9",
+      "unchanged": true
+    },
+    {
+      "path": "estrategias/EA-000007-000001-constituicao-publica.md",
+      "git_sha256": "44e43dec7581d9b517240cec4e1efdc5a6ca963c9343ce7f6484f0ace3dfce46",
+      "git_blob": "8334aa2e684910f643151e4ea1b6c6e6fc5f88e9",
+      "worktree_sha256": "1848869d1e83e98946473240d27ba32671318ed04c4e260fc01eb25f77055f68",
+      "unchanged": true
+    }
+  ],
+  "source_files": [
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/build_knowledge_index.py",
+      "git_sha256": "677849afc4da174ecd481f81559d8890c0b56231fc18a014d0ad914d80c7de2b"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/legacy_bootstrap_evidence.py",
+      "git_sha256": "6b4464b8834f9edce9bf3c0790fb0730acafe51e485b7906738e33b10975bbcd"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/project_creation_gate.py",
+      "git_sha256": "62043b5955fde4f785d9e1c2141ec6f4d61dd3eb0bfd4f5ab8698c8e541e3488"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/query_knowledge_index.py",
+      "git_sha256": "9afef20058a36df7d39b34d9906862949fb3464d0997fc0c0f1b38c9d4d1c837"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/sciv_bootstrap.py",
+      "git_sha256": "2e0c4c940496376b3f1ad0208c4fcc6a548811ed65bc33dc2e9fc1ef6a231336"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/test_legacy_bootstrap_gate.py",
+      "git_sha256": "3b60dad8642892a09aed5ee3dc1739b42c85bc8403f3800f6f6e2dbbcd595b06"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/test_project_creation_gate.py",
+      "git_sha256": "01e09e6f7d6e5cc1f3ad31072eec3647c67aac5221aeb2a83bc550579ec21e9e"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/test_sciv_bootstrap.py",
+      "git_sha256": "c77eb3ca3a4c3b274c4659dab73989de4427158625807719be1f28d565cad372"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/test_validate_execution_action_plan.py",
+      "git_sha256": "c4849d998815543c7d3e17bc34ec4899f57057ef1c22fa45959a49ba1e2ab725"
+    },
+    {
+      "commit": "2af1258c4867da3bd59b0a3ff332f7e34f94bb6c",
+      "path": "tools/validate_execution_action_plan.py",
+      "git_sha256": "02d0700e56541316a297fc34a23e13ae3d273e5aa548a3c1111e2dc4d70ed42c"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/apsp_execution_broker.py",
+      "git_sha256": "b6b4a5dfc6cecc60a1f678d5ba0ff99c3e35edab47a4a43ed0a988a54c6907c9"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/apsp_executor.py",
+      "git_sha256": "d84c90d9b93bb13853a22641619a396e62ad6690491e762da53af8d6e2355851"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/apsp_independent_audit.py",
+      "git_sha256": "6ff7de7bddc5b785128503c90b5c4d321245d202561db0f2504ac0260dc85c73"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/apsp_offline_control.py",
+      "git_sha256": "0aa9e0d616f3d9dc7aee16f34b70ebe223a6b7ee58b5fcc7ebae88bbf99062b6"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/architecture_knowledge.py",
+      "git_sha256": "740d0df3be0b726e9cda5434e02b653cb06cdc5d226a1069257bc0c061891838"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/continuity_gate.py",
+      "git_sha256": "be2e07acd2b193be8126f08d9dd35774a4a6757b13b2f167ada2a78d82311581"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/durable_contracts.py",
+      "git_sha256": "3af341b1c58f0be0529580b24efcfecb30b7fd0a12da7fe41aa2cf4c4b9bd00f"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/economic_preflight.py",
+      "git_sha256": "5973e5d2c6a8155f6a9b069e64812428964ffd224a7d64bd3dd3cb6ee466f1fa"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/ephemeral_github_handler.py",
+      "git_sha256": "a5c77100f1fabac0503a259c607572a2e460584d289f6b9956fd1e45f89732bd"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/executor_action_gate.py",
+      "git_sha256": "f722f6c425ec97ab1dce0e9104fdef94b62cba91bd96a0d577ce33394ed6d90a"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/executor_dispatch_guard.py",
+      "git_sha256": "50f8dc68b159e42a2e579c5ac660170efb6eb57ac94a33e823758d92d4574cc4"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/github_write_contracts.py",
+      "git_sha256": "36cf0a8e966da4c4b621bccf5e72e0c46a7535586da95a2a3cca488fd7e9bdcd"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/m2_core.py",
+      "git_sha256": "a489aef1f98b4f4ebbea3c5f2cf8b055c2f87ad89ebb7306c025c8f2aa7d7ec4"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/m2_durable.py",
+      "git_sha256": "a2566d867409f75d02b3ddd857b8013b47fa2ff998210ec229480e34b3a91bce"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/m2_lab.py",
+      "git_sha256": "9cba59db5f0264fb38615d85968be79c47ea1fbde7fc85e23d6ff814d9227d32"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/m2_shadow.py",
+      "git_sha256": "97c02ca72f6a2bcbe14f2aae337a5da31b6ec9a7b6c9c85530ee52e5d2ba2d7f"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/m3_supervised.py",
+      "git_sha256": "15c22e053d0bc16f2d3daa536197f7b07ce7495d5279d7d966b1ffb4b85e69fc"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_fisco_f4_delegator.py",
+      "git_sha256": "4b2174dbe2e9555127a73f1c7dc2d18730e0697de42faec843457ad2a5d1dcfc"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_fisco_pilot_delegator.py",
+      "git_sha256": "54c460276435c85f08d630cbc021cda327afe889f577816b8526a8c27f483106"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_generator_migration_handler.py",
+      "git_sha256": "00fff620bfdffd47124bd11c40e0a584cd171773609ae0f29f02682ea65bbede"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_generator_migration_runner.py",
+      "git_sha256": "23362d7c293936e1f89c8f88943394daf9a6cf30e80a2abc31f3796b8a020df7"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_namespace_gate.py",
+      "git_sha256": "a2d066cdec028fc6bd21de0d63253ab35ca84f280e0568dce4b8be3d9983b60a"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_orchestrator.py",
+      "git_sha256": "99e653bb92650315b7ba408daaf359c24b5901e08635adc7561bb4ca2a2831f8"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_portfolio_builder.py",
+      "git_sha256": "a173766dc06b39a8204e7b74da2848743cbb398aed3ae17ed7759f9562f77170"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_portfolio_independent_audit.py",
+      "git_sha256": "271965cde5c3120dc2e92ca75b46c4a7a9a3613a05a53a3de52a202001b02882"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_portfolio_normalization_runner.py",
+      "git_sha256": "94e8c5f1e0c01b4c7b8e25212fe311ff19aad5857bcad49ddc5a7c65a8da71c6"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_production_audit.py",
+      "git_sha256": "326a3add73d10c75cecec4bb3b370e528f66567aa3dc24feb6080d89d8160b67"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_resumption.py",
+      "git_sha256": "aa37ed091af5c73c4d15dec9c86a94c5b2cb44a928bf9ee8fe9cd4a455d1524a"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_rollout_pilot.py",
+      "git_sha256": "dfd93bd80e281dee917a9435f9b4106cdc59d2261945258b7c1fdbb5f662e139"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_rollout_verification.py",
+      "git_sha256": "df8e97dc515472987aa49da1355fcc941727655ef2ad5cb15a31389770a51fb6"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_scheduler.py",
+      "git_sha256": "615219950e3d2fc976da398e5adb061a71fd5ef57c9e109ca7251827ec7110b2"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/mogp_strategy_genealogy.py",
+      "git_sha256": "7da6ca0482d4568f1e4436b2ad7bfa1079b6da8d65e17a2f9592a6cc4942f7c7"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/program_successor.py",
+      "git_sha256": "a37d7705663124c2f4af98315774683d792463d505efd92bea9533ef2705aeca"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/r2_binding_fixture.py",
+      "git_sha256": "913360d1a90180c30a933b1a1e1d91a799e65fd0a64f8451579fe66c885a6ee1"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/r2_fixture_authority.py",
+      "git_sha256": "d0ba4fdb06102e0bb5b4fe932ddd87fc3120bb26f12cab19c6489b0b95cf51f5"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/r2_local_persistence.py",
+      "git_sha256": "0314bbffb059e8b76160289f361457cda73e75480684c624de67889326c056de"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/r2_pep_offline.py",
+      "git_sha256": "fe59238d0b005ca01f8f68b2c26b6efbc89bcd046969b97016fe3c5c654d2786"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/r2_policy_engine.py",
+      "git_sha256": "81fea468383f4f415b6a45954f920baf61c08e4b61d3566a42137d0c199e4a0c"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/r2_receipt_pep_lab.py",
+      "git_sha256": "c9b0d441836814bf1b341c9a5c3791891fbfc5c91ed10da9d7c45c3787895869"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/sciv_archive.py",
+      "git_sha256": "6c93e41038faa45739a3bb4c2cf01de0ead959a288dbca17038f61e8d471ca65"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/sciv_essential.py",
+      "git_sha256": "56aeabb4414ce5387512ef19ed85f71015ef1c3775af589e4eb390c8901d95b7"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/sciv_mailbox.py",
+      "git_sha256": "25119cc12a28f9abfbf486e530b9377ef9d27313b01aeefa58125173604115c2"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/strategy_dependency_gate.py",
+      "git_sha256": "8349fd7ea30ba31b77bbfb484b3bb57acb5532436b1fa4db3cfee8026463adfd"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/t6_readiness.py",
+      "git_sha256": "9bf84ccd88b642be10b9068cbd7ac05fa5fa79646bddd09e8dbca8162c5da456"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_apsp_execution_broker.py",
+      "git_sha256": "b42e6c90d22d928754b813fdb6202962084fd09100405cb257d0cccb4186cc98"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_apsp_recovery.py",
+      "git_sha256": "8189bc5ac227883767694577ede1f41d7eb7eef1fac3449ebfc9d7090daa9457"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_ephemeral_github_handler.py",
+      "git_sha256": "2be2b79b990879bbd28266c295781bf757ebe7f5ad8bce58df69e930890c5d27"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_m2_core.py",
+      "git_sha256": "1a65bd63bab9b45d6fef87e7e52364e6da6bf31876e4c1fbf647d97dc51329dd"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_m3_supervised.py",
+      "git_sha256": "e561eac747436fc9f55622b7f8afd2258b391a3e654ae2ded77d7fcab601bf11"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_generator_migration_handler.py",
+      "git_sha256": "30f4a0a541b05b3a8873785514660808782d0f5f4eb9b3e756032e2c2fc34aa9"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_generator_migration_runner.py",
+      "git_sha256": "8229e430b5dce2ceda42e9d2259fbdb7c724cf7129e305695f74ea97284bba19"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_live_pilot.py",
+      "git_sha256": "1ca15ab28e75113287a4185efc13f7a6bb1f1e1e9b6846a188b42e0852167a70"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_namespace_gate.py",
+      "git_sha256": "0e94bc3345f0784c73f4b62c5b7b6dc615d92302c7ea2bdca5fb4693a00dfc97"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_off_github_collector.py",
+      "git_sha256": "97208c5c0b3433844bd38be832a7573a343231b124bfa77f37f95a58c90bc73e"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_off_github_essential_sources.py",
+      "git_sha256": "2131cea52b2a763a3321d52b88f8d0f6346fb16fdf49d675975f23187f9e7eb6"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_off_github_semantic_collector.py",
+      "git_sha256": "c74beb221ff44a9c936ba17e8b6dd3460178d3b5a3ba8e15465ecb75f6898017"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_orchestrator.py",
+      "git_sha256": "66ff6565e8c2cab8b0962104411b485be61e6ec3b86e91914c72e1b0e5319629"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_portfolio_builder.py",
+      "git_sha256": "b7720c8902d0d4438e464b4c64cf6ea34093a0a85372f2a49071f2b2c3cde562"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_portfolio_normalization_runner.py",
+      "git_sha256": "17b3c9f5931df5c8ea9d4011c7df3ed67caeb8b8799b4f73eeb1297ba2e389f4"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_production_audit.py",
+      "git_sha256": "55ed20c436333aa069e74182ae31211d9718164108ffe9c9709a001ac3b87cf0"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_resumption.py",
+      "git_sha256": "bda2865978695ecb834cfcb49b299317925761dce02e4427bf1c22bcd0a861b0"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_scheduler.py",
+      "git_sha256": "d7f53399ebfeb55c04c9b11f216e304d7f8890f7c425dab06ebf1559fbf4d6c9"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_mogp_strategy_genealogy.py",
+      "git_sha256": "204b6b944d4cee0c1dcbe60a9fb75e70febf209a75ef11fbba816d52e787ab73"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_sciv_archive.py",
+      "git_sha256": "cf56b2931e20c5510b142eb31bafb56b69b45a7b8781d8acef1630d380132901"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_sciv_essential.py",
+      "git_sha256": "020441d5a28a3218a68655b2244cf87124eed1ed9603775c5ceed8374d244cb5"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_sciv_mailbox.py",
+      "git_sha256": "ca814cc355fb0cfa42c7d458ed7bf0ab558984273c99e8d4a5b016d8d9e37fc6"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_sciv_per_project.py",
+      "git_sha256": "7c9cefd50805fb86dc21b4b7fa465d2c0f8bd618b6f52f4e85b92ac6167b59f0"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_sciv_publication.py",
+      "git_sha256": "e07c9f1f04de1d882e2a6266460e3efda74b5eff753cdc2b4c1e84d898acad44"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_sciv_security.py",
+      "git_sha256": "058dee8e7441d832181a967ad416974d7d6f885868a592c8ff3df5281ad65dca"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_strategy_dependency_gate.py",
+      "git_sha256": "f8b6698162e759e74df59106d590fce9d5cf3af8fd89a101a513b27b4de9039a"
+    },
+    {
+      "commit": "86998b2dcea6fb45ecb07f73e9330af26a6fdace",
+      "path": "runtime/test_t6_readiness.py",
+      "git_sha256": "662cf641397adda8299826bf78211558e3208c6d57bb9c5e0587b5d9c82e03f7"
+    }
+  ],
+  "symlink_physical_verified": false,
+  "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+}

@@ -1,0 +1,85 @@
+{
+  "routing": [
+    {
+      "status": "ALLOW",
+      "action_id": "CODE_REFACTOR",
+      "requested_executor": "CODEX",
+      "required_executor": "CODEX",
+      "project_code": "PRJ-000007",
+      "reason": null,
+      "routing_only": true,
+      "grants_authorization": false,
+      "executes_effects": false
+    },
+    {
+      "status": "ALLOW",
+      "action_id": "TEST_EXECUTION",
+      "requested_executor": "CODEX",
+      "required_executor": "CODEX",
+      "project_code": "PRJ-000007",
+      "reason": null,
+      "routing_only": true,
+      "grants_authorization": false,
+      "executes_effects": false
+    }
+  ],
+  "action_matrix": {
+    "status": "PASS",
+    "strategy_code": "EA-000007-000003",
+    "matrix_ref": "estrategias/EA-000007-000003-actions.json",
+    "declared_actions": 7,
+    "phases_covered": 6,
+    "phase_total": 6,
+    "errors": [],
+    "limitation": "Structural contract only; action_id catalog routing, capability, PEP authorization and effects require independent runtime checks."
+  },
+  "generator_sciv": {
+    "status": "PASS",
+    "gate": "sciv",
+    "route": "B",
+    "evidence": {
+      "initial_strategy": "EA-000007-000001",
+      "initial_plan": "estrategias/EA-000007-000001-constituicao-publica.md",
+      "phases": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "action_plan_result": "NOT_BACKFILLED",
+      "action_plan_errors": [
+        "FILE_MISSING:estrategias/EA-000007-000001-actions.json",
+        "ACTION_MATRIX_INVALID_JSON",
+        "ACTION_MATRIX_STRATEGY_MISMATCH",
+        "NO_ACTIONS_DEFINED",
+        "PHASES_WITHOUT_ACTIONS:F-000007-000001-001,F-000007-000001-002,F-000007-000001-003,F-000007-000001-004"
+      ],
+      "legacy_bootstrap": {
+        "status": "LEGACY_FIRST_EA_MATRIX_NOT_BACKFILLED",
+        "commit": "01d3a7cb134fa247ee3bfb89f2d4470648d03721",
+        "author_date": "2026-10-10T17:07:53-07:00",
+        "committer_date": "2026-10-10T17:07:53-07:00",
+        "effective_date": "2026-10-11",
+        "refs": [
+          "STRATEGY_LOG.jsonl",
+          "REQUEST_LOG.jsonl",
+          "estrategias/EA-000007-000001-constituicao-publica.md"
+        ],
+        "created_event": "EVT-000007-20261010-CONSTITUICAO-001",
+        "concluded_event": "EVT-000007-20261010-CONSTITUICAO-003",
+        "terminal_contract": {
+          "terminal_gate": "PUBLIC_DOCUMENTARY_CONSTITUTION_VERIFIED",
+          "gate_source": "gate",
+          "phase_total": 4,
+          "phase_total_source": "CONCLUDED"
+        }
+      },
+      "sciv_action_plan_result": "PASS",
+      "sciv_strategy": "EA-000007-000003",
+      "sciv_mode": "ON_DEMAND"
+    },
+    "errors": [],
+    "limitation": "Documentary consistency only; never native UI attestation, A6/B8 acceptance or live PEP authorization. Site checks do not verify live deploy/HTTP, visual portfolio distinction, browser navigation or full accessibility."
+  },
+  "python": "3.12.14"
+}
