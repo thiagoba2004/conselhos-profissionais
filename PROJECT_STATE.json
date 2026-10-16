@@ -95,12 +95,12 @@
     "action_plan_ref": "estrategias/EA-000007-000003-actions.json",
     "source_request_id": "REQ-000007-20261012-005",
     "authorization_ref": "REQ-GLOBAL-20261011-001",
-    "status": "F002_F003_REMOTE_VERIFIED_F004_TECHNICAL_RERUN_PASS_READBACK_PENDING",
-    "current_phase": "F-000007-000003-004",
-    "last_completed_phase": "F-000007-000003-001",
-    "last_completed_gate": "SCIV_ADMISSAO_REGISTRADA",
-    "next_executor": "CODEX_LOCAL_PRJ000007",
-    "next_action": "ACT-000007-000003-004",
+    "status": "F004_REPOSITORY_VERIFIED_WITH_PHYSICAL_SYMLINK_LIMITATION_F005_HUMAN_PENDING",
+    "current_phase": "F-000007-000003-005",
+    "last_completed_phase": "F-000007-000003-004",
+    "last_completed_gate": "SCIV_REPO_VERIFICADO",
+    "next_executor": "HUMAN_G0",
+    "next_action": "ACT-000007-000003-005",
     "mode": "ON_DEMAND",
     "enabled": false,
     "opt_in_authorized": true,
@@ -120,11 +120,11 @@
     "global_registry_commit": "665e8f12423b67bb63fab7ebbffb13cef58bc777",
     "local_mailboxes_provisioned": true,
     "local_adapter_sciv_applied": true,
-    "repository_gate_verified": false,
+    "repository_gate_verified": true,
     "remote_package_readback_verified": true,
-    "blocker": "RERUN_REMOTE_READBACK_PENDING;PHYSICAL_SYMLINK_NOT_VERIFIED_OPERATIONAL_USE_BLOCKED",
+    "blocker": "PHYSICAL_SYMLINK_NOT_VERIFIED_OPERATIONAL_USE_BLOCKED;NATIVE_CONTEXT_AND_B8_NOT_VERIFIED",
     "physical_symlink_limitation": "SKIP_ENV_NOT_SUPPORTED_WINERROR_1314;OPERATIONAL_ACTIVATION_BLOCKED",
-    "publication_status": "RERUN_AUTHORIZED_PENDING_PUBLICATION",
+    "publication_status": "RERUN_EVIDENCE_PUBLISHED_REMOTE_BYTES_VERIFIED",
     "execution_request_ref": "REQ-000007-20261015-008",
     "report_ref": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/RELATORIO.md",
     "local_tests": {
@@ -136,6 +136,9 @@
       "initial_runtime_error": 1,
       "runtime_retry_environment": "PYTHONUTF8=1"
     },
-    "next_logical_step": "Publicar evidencias do rerun autorizado e conferir readback remoto por commit e bytes; SCIV desativado e uso operacional bloqueado."
+    "next_logical_step": "G0 reconcilia registro global por acao propria; titular decide contexto/configuracao F005. Resolver prova fisica de symlink antes de uso operacional; enabled=false.",
+    "rerun_published_commit": "65a24c46a27665171944406c325f8b0d7ccf209d",
+    "rerun_readback_ref": "auditorias/EA-000007-000003-rerun-f004-2026-10-15/readback.json",
+    "repository_gate_scope": "DOCUMENTARY_OFFLINE_ONLY;2_PHYSICAL_SYMLINK_SKIPS_NOT_APPROVED"
   }
 }

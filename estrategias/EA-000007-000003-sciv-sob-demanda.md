@@ -40,3 +40,7 @@ Pedido `REQ-000007-20261015-006`. F002/F003 aplicadas localmente com manifesto, 
 ## Rerun F004 — 15/10/2026
 
 REQ-000007-20261015-008: correcao do Gerador 2af1258c4867da3bd59b0a3ff332f7e34f94bb6c; Rota B/SCIV PASS, 266 PASS / 2 SKIP finais. ERROR inicial de encoding runtime preservado; retry UTF-8 passou. F002/F003 readback remoto verificado; rerun F004 aguarda publicacao/readback. Dois symlinks fisicos nao aprovados, uso operacional bloqueado. SCIV enabled=false, Site/Pages e F005/F006 preservados. Relatorio: auditorias/EA-000007-000003-rerun-f004-2026-10-15/RELATORIO.md.
+
+## Readback do rerun F004 — 15/10/2026
+
+Commit 65a24c46a27665171944406c325f8b0d7ccf209d publicado por push normal; copia remota completa, arvore, ancestralidade e 58 arquivos conferidos por bytes. F004 SCIV_REPO_VERIFICADO concluida somente no escopo repositorio/offline com ressalvas. 266 PASS / 2 SKIP; ERROR inicial de encoding preservado e retry UTF-8 aprovado. Dois testes fisicos de symlink NAO aprovados; uso operacional bloqueado. SCIV enabled=false, Site/Pages inalterados. F005 aguarda titular/G0; F006 nao executada. Recibo: auditorias/EA-000007-000003-rerun-f004-2026-10-15/readback.json.

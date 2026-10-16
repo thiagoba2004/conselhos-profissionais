@@ -83,3 +83,7 @@ Próximo responsável: titular/G0, para reconciliar o catálogo global por açã
 própria e decidir o contexto/configuração humana de F005, preservando a pendência
 de segurança física antes de qualquer uso operacional. Nenhuma escrita global
 ou novo teste de recebimento B8 foi feito por este rerun.
+
+## Readback do rerun F004 — 15/10/2026
+
+Commit 65a24c46a27665171944406c325f8b0d7ccf209d publicado por push normal; copia remota completa, arvore, ancestralidade e 58 arquivos conferidos por bytes. F004 SCIV_REPO_VERIFICADO concluida somente no escopo repositorio/offline com ressalvas. 266 PASS / 2 SKIP; ERROR inicial de encoding preservado e retry UTF-8 aprovado. Dois testes fisicos de symlink NAO aprovados; uso operacional bloqueado. SCIV enabled=false, Site/Pages inalterados. F005 aguarda titular/G0; F006 nao executada. Recibo: auditorias/EA-000007-000003-rerun-f004-2026-10-15/readback.json.

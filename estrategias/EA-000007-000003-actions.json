@@ -172,17 +172,20 @@
       "on_block": "Registrar bloqueio, owner e evidência; continuar somente ações independentes autorizadas",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
-      "status": "IN_PROGRESS",
+      "status": "VERIFIED",
       "execution_request_ref": "REQ-000007-20261015-008",
-      "local_result": "ROUTE_B_SCIV_PASS_266_PASS_2_SKIP_REMOTE_RERUN_PENDING",
+      "local_result": "ROUTE_B_SCIV_PASS_REMOTE_READBACK_VERIFIED_WITH_LIMITATIONS",
       "evidence_refs": [
         "auditorias/EA-000007-000003-codex-sciv-f002-f004.md",
         "auditorias/EA-000007-000003-evidencias/gates-results.json",
-        "auditorias/EA-000007-000003-rerun-f004-2026-10-15/RELATORIO.md"
+        "auditorias/EA-000007-000003-rerun-f004-2026-10-15/RELATORIO.md",
+        "auditorias/EA-000007-000003-rerun-f004-2026-10-15/readback.json"
       ],
-      "remote_readback_verified": false,
-      "blocker": "RERUN_READBACK_PENDING;PHYSICAL_SYMLINK_OPERATIONAL_LIMITATION",
-      "decision_owner": "TITULAR_HUMANO_G0_AND_GENERATOR_OWNER"
+      "remote_readback_verified": true,
+      "blocker": null,
+      "decision_owner": "TITULAR_HUMANO_G0",
+      "verified_scope": "REPOSITORY_OFFLINE_ONLY;PHYSICAL_SYMLINK_NOT_VERIFIED;NO_ACTIVATION",
+      "operational_blocker": "PHYSICAL_SYMLINK_AND_NATIVE_HUMAN_GATES_PENDING"
     },
     {
       "action_key": "ACT-000007-000003-005",
